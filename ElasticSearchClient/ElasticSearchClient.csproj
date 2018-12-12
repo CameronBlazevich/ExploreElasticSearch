@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Nest, Version=6.0.0.0, Culture=neutral, PublicKeyToken=96c599bbe3e70f5d">
+        <HintPath>..\..\..\.nuget\packages\nest\6.4.0\lib\netstandard2.0\Nest.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NEST">
+        <Version>6.4.0</Version>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ExploreElasticSearch.Core\ExploreElasticSearch.Core.csproj" />
+    </ItemGroup>
+
+</Project>

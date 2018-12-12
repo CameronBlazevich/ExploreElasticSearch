@@ -1,0 +1,57 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\PdfTextExtractor\\PdfTextExtractor.csproj",
+    "projectName": "PdfTextExtractor",
+    "projectPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\PdfTextExtractor\\PdfTextExtractor.csproj",
+    "outputPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\PdfTextExtractor\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ElasticSearchClient\\ElasticSearchClient.csproj": {
+            "projectPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ElasticSearchClient\\ElasticSearchClient.csproj"
+          },
+          "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ExploreElasticSearch.Core\\ExploreElasticSearch.Core.csproj": {
+            "projectPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ExploreElasticSearch.Core\\ExploreElasticSearch.Core.csproj"
+          },
+          "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ExploreElasticSearch\\ExploreElasticSearch.csproj": {
+            "projectPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ExploreElasticSearch\\ExploreElasticSearch.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "BitMiracle.Docotic.Pdf": {
+          "target": "Package",
+          "version": "[5.6.9220-dev, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

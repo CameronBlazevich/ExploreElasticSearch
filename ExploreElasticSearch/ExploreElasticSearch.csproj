@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="wwwroot\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="NEST">
+          <Version>6.4.0</Version>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ElasticSearchClient\ElasticSearchClient.csproj" />
+      <ProjectReference Include="..\ExploreElasticSearch.Core\ExploreElasticSearch.Core.csproj" />
+    </ItemGroup>
+
+</Project>

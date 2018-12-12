@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BitMiracle.Docotic.Pdf">
+        <Version>5.6.9220-dev</Version>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Elasticsearch.Net, Version=6.0.0.0, Culture=neutral, PublicKeyToken=96c599bbe3e70f5d">
+        <HintPath>..\..\..\.nuget\packages\elasticsearch.net\6.4.0\lib\netstandard2.0\Elasticsearch.Net.dll</HintPath>
+      </Reference>
+      <Reference Include="Nest, Version=6.0.0.0, Culture=neutral, PublicKeyToken=96c599bbe3e70f5d">
+        <HintPath>..\..\..\.nuget\packages\nest\6.4.0\lib\netstandard2.0\Nest.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ElasticSearchClient\ElasticSearchClient.csproj" />
+      <ProjectReference Include="..\ExploreElasticSearch.Core\ExploreElasticSearch.Core.csproj" />
+      <ProjectReference Include="..\ExploreElasticSearch\ExploreElasticSearch.csproj" />
+    </ItemGroup>
+
+</Project>

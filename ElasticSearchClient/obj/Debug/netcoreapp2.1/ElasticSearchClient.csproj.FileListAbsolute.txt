@@ -1,0 +1,12 @@
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\bin\Debug\netcoreapp2.1\ElasticSearchClient.deps.json
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\bin\Debug\netcoreapp2.1\ElasticSearchClient.dll
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\bin\Debug\netcoreapp2.1\ElasticSearchClient.pdb
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\obj\Debug\netcoreapp2.1\ElasticSearchClient.csprojAssemblyReference.cache
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\obj\Debug\netcoreapp2.1\ElasticSearchClient.csproj.CoreCompileInputs.cache
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\obj\Debug\netcoreapp2.1\ElasticSearchClient.AssemblyInfoInputs.cache
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\obj\Debug\netcoreapp2.1\ElasticSearchClient.AssemblyInfo.cs
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\obj\Debug\netcoreapp2.1\ElasticSearchClient.dll
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\obj\Debug\netcoreapp2.1\ElasticSearchClient.pdb
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\bin\Debug\netcoreapp2.1\ExploreElasticSearch.Core.dll
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\bin\Debug\netcoreapp2.1\ExploreElasticSearch.Core.pdb
+C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ElasticSearchClient\obj\Debug\netcoreapp2.1\ElasticSearchClient.csproj.CopyComplete

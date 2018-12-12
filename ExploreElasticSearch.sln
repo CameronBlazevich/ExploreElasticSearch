@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreElasticSearch", "ExploreElasticSearch\ExploreElasticSearch.csproj", "{C1DD7C27-6D9C-452F-808E-173DD2A88221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfTextExtractor", "PdfTextExtractor\PdfTextExtractor.csproj", "{A16D9224-8B77-45DE-B349-50513177168A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSearchClient", "ElasticSearchClient\ElasticSearchClient.csproj", "{6EF89882-2989-40A4-BEDD-AC6E912A1E76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreElasticSearch.Core", "ExploreElasticSearch.Core\ExploreElasticSearch.Core.csproj", "{24B4E4C9-BB38-4AF4-AA20-E9B361C479F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1DD7C27-6D9C-452F-808E-173DD2A88221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DD7C27-6D9C-452F-808E-173DD2A88221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DD7C27-6D9C-452F-808E-173DD2A88221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DD7C27-6D9C-452F-808E-173DD2A88221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16D9224-8B77-45DE-B349-50513177168A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16D9224-8B77-45DE-B349-50513177168A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16D9224-8B77-45DE-B349-50513177168A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16D9224-8B77-45DE-B349-50513177168A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF89882-2989-40A4-BEDD-AC6E912A1E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF89882-2989-40A4-BEDD-AC6E912A1E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF89882-2989-40A4-BEDD-AC6E912A1E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF89882-2989-40A4-BEDD-AC6E912A1E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B4E4C9-BB38-4AF4-AA20-E9B361C479F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B4E4C9-BB38-4AF4-AA20-E9B361C479F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B4E4C9-BB38-4AF4-AA20-E9B361C479F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B4E4C9-BB38-4AF4-AA20-E9B361C479F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
