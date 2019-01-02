@@ -10,6 +10,7 @@ namespace ExploreElasticSearch.Documents.Models
             Participants = new List<Participant>();
         }
         public string Title { get; set; }
+        public string MetaTitle { get; set; }
         public string Text { get; set; }
         public double? RelevancyScore { get; set; }
         public List<Participant> Participants { get; set; }

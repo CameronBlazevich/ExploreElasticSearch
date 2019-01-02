@@ -1,0 +1,241 @@
+Rhonda: Welcome to another episode of the FoundMyFitness podcast. Today, I'm sitting here with doctors, Justin and Erica Sonnenburg. Justin is an associate professor at Stanford in the Department of Microbiology and Immunology, and Erica is a senior scientist at Stanford. And together they run a lab where they study the effects of diet on the hundred trillion or so bacteria in the gut and how that impacts the health of the host, which in their case happens to be a laboratory mouse.
+
+But this applies to the general population, and so I'm really excited because I'm convinced that the health of the gut plays a very important role in overall general health. So maybe we can start by talking a little bit about your research and why the gut health is so important.
+
+Justin: Sure. So I think we became interested in the gut microbiota from the standpoint of just basic pioneering research, trying to understand this new microbial organ that we've discovered inside of us that's incredibly important and connected to so many facets of our health. And over the course of the past 10 years or so, there's been this transformation in understanding this community and how fundamental it is.
+
+It's not just a quirky part of our biology. It really is holding the key to health of our immune system, our metabolism. There's a brain-gut access so it's dictating mood, behavior, perhaps impacting things like autism and neurodegeneration. So there's really this profound impact this microbial community has on our entire body.
+
+Erica: Yeah, and just to throw some interesting numbers out there, by cell number, we actually have ten times more bacterial cells associated with our body than human cells. And we even have a hundred times more bacterial genes associated with our collective genome than human genes. So both by cell number and by gene number, we're actually more microbial than we are human.
+
+And so I think the research from our lab and other labs in this area is really redefining how we think of ourselves as human beings. We're not just this collection of human cells. We're in fact more like a tube of human cells that houses this incredibly complex and dynamic ecosystem of microbes, and what we're finding is that these microbes are wired into pretty much all aspects of our biology. They're really major players in many aspects of our health.
+
+Rhonda: Yeah, in terms of how these bacteria in our gut are regulating health, one thing that comes to my mind in particular is...so this bacteria is in our gut and most of it is in the distal part, so in the colon.
+
+Erica: Mm-hmm.
+
+Rhonda: And it just so happens that our GI tract happens to be, also, the largest number of immune cells. I don't think most people..if you were to ask them what organ in the human body has the highest concentration of immune cells, people might say the thymus or the spleen.
+
+No, it's actually the gut, and so that is particularly where I have been interested because there's a very complex interaction between the bacteria in our gut and the immune cells in our gut. And you guys have done a little bit of research on how diet comes into play into that.
+
+Justin: Yeah, so there are two aspects of that. I think, one, it's a little bit daunting to think of these microbes inside of us as dictating so much of our biology, that they actually are holding the reins to some degree on our immune system on our metabolism. On the other hand, our diet directly impacts this community. Our research and the research of others has shown this over and over again.
+
+And so, really, we hold the reins on what's happening inside our gut by controlling what we eat and the aspects of our lifestyle. So I think as we gain knowledge about this community, it's possible for us to foster a healthy microbiota to improve our health in many dimensions. Now the immune system is really interesting because there's a really delicate balance between our microbiota and our gut because living in close proximity are these two entities that, classically, in microbiology were thought not to get along: bacteria and the host's immune system.
+
+And what we realized is that there's this incredible conversation that's continually ongoing in our gut between our immune system and the gut microbes to maintain harmony in most cases, although this can go awry. So there's a delicate balance in the gut, but also the immune system can leave the gut, those signals can leave the gut and influence our immune system throughout our body.
+
+So really these microbes in our gut are dictating the set point of our immune system throughout our body. They can impact things like respiratory infections, how well we respond to a vaccine, how rapidly an autoimmune disease can progress. So I think this insight that so much of our immune system is in our gut is really profound, and it's important to recognize that this not only impacts what's going on in the gut but throughout our entire body.
+
+Rhonda: Absolutely, so the food that we put into our body interacts with these gut bacteria. And if we feed them certain foods or we don't feed them certain foods, this will impact the immune system in the gut and also in the rest of our body. So specifically what comes to my mind is the dietary fiber that can be metabolized by certain bacteria in the gut into something called short-chain fatty acids like butyric acid, propionic acid, acetic acid, lactic acid, anything else, and how these short-chain fatty acids provide signals to certain immune cells to regulate their function both in a positive way or also in suppressing your immune system from becoming too active.
+
+Can you explain a little bit about that?
+
+Justin: Sure. Well, so the dietary fiber we eat is really the key for feeding this gut microbial community, and the point that the microbes in our digestive tract primarily live at the end of the digestive tract is really important, because so much of the food that we eat in the Western world is laden in simple carbohydrates and fats and all of those things get absorbed in the upper GI tract and leave our microbes essentially starving.
+
+There's no complex carbohydrates to feed this community. In fact, going back to traditional populations of humans that are representative of how we evolved, it's clear that we used to eat as humans much more dietary fiber than we currently eat. So there's really good evidence that in the United States we're actually starving our microbes.
+
+So this is important in many respects. One is that when the microbes receive these dietary carbohydrates, these complex dietary fibers that we eat, they make these compounds like short-chain fatty acids. That's their metabolism working. And these compounds, short-chain fatty acids, are actually the bacterial waste; the bacterial feces, if you will.
+
+And then we absorb these compounds and they regulate a number of different aspects of our biology in a positive way. So they increase the number of T-regulatory cells. These are cells that attenuate inflammation, calm the immune system. So if you're not eating dietary fiber, it's likely that your immune system is operating in a hyper-inflammatory state.
+
+This hyper inflammatory state, it's believed it can drive a lot of different types of Western diseases ranging from autoimmune diseases, metabolic disorders, things like asthma, allergies. All of these problems that we associate with the Western world really have excessive inflammation as an underlying mediator.
+
+And so it's not too hard to imagine how Americans that are not consuming dietary fiber, not producing a lot of short-chain fatty acids have this hyperactive immune system, and so dietary fiber is really a key to feeding this community and setting the immune system to a proper set point so that it's not too reactive.
+
+Now there's a really interesting connection between lack of dietary fiber and host mucus as well that maybe Erica wants to talk about it.
+
+Erica: Yeah. So one thing that I wanted to add to that is carbohydrates is such a loaded term in our society now. People view carbohydrate as something bad and you want to avoid. But broadly speaking, there are two types of carbohydrates we need to be aware of.
+
+The more simple carbohydrates, and like Justin was saying, these are the ones that are absorbed early in our GI tract. So these are things from highly refined grains or packaged foods types of simple sugars that are so prevalent in much of our Western diet. But then there's these complex carbohydrates, the type of carbohydrates that are found in dietary fiber and these are things that you find in whole grains, fruits, and vegetables.
+
+And these are the carbohydrates that the human genome is not very good at degrading. So it actually makes it all the way down to our distal gut, to our colon and then our microbes in our colon can ferment these complex carbohydrates and then produce the short-chain fatty acids that you were talking about. And so what we're finding is that when we don't eat enough of these complex carbohydrates found in dietary fiber, these gut bacteria are starving and so they really are forced to rely on the carbohydrates that are found in the mucus layer that lines our large intestine.
+
+And so as we don't consume enough dietary fiber, these microbes become closer to our mucus lining. They're eating that food because that's all they have to eat, and they're inching ever closer to our own epithelial cells. And that creates a situation in which the human aspect of our GI tract and the microbial aspect, that fence that keeps them separated starts thinning and setting up a scenario where our immune system now can start overreacting to these microbes encroaching and these microbes potentially get a little more aggressive because they're lacking in the food that they require.
+
+Justin: And then one thing that I just wanted to add, there's a lot of focus on the short-chain fatty acids that are this major product of fiber degradation by the gut microbiota in the distal gut. But there's a variety of other interesting chemicals that these microbes are producing. Bacterial metabolism is something that's really not studied well enough, and we can think of each bacteria in our gut as a little unsupervised drug factory that's constantly making interesting small molecules and interesting chemicals.
+
+We don't know the identity of most of these compounds. We don't know how they affect our biology. They're circulating in all of our blood right now, they're slightly different between me and you, and they change in a single individual over the course of a day. And so understanding how these chemicals are impacting different aspects for biology is one of the great frontiers of research.
+
+Rhonda: Yeah. So about ten different things came to my mind as both of you guys spoke, so I'm going to try fire away, but as Erica was saying, it's really interesting you're talking about how when you're starving these gut bacteria in the colon, how they start to eat away the mucus and of course that's the gut barrier that is the mucus.
+
+Most people know about the gut barrier when that breaks down. You start to have the immune cells, which are usually not in contact with all these bacteria in your gut. So it starts to come in contact and then they can start to have an immune response. It's an interesting way, because I usually think about it as when you're starving the bacteria of the fiber that they need to make these short-chain fatty acids as starving the gut epithelial cells which rely on these short-chain fatty acids for energy.
+
+I think I read somewhere between 60% to 90%of the goblet cells, which are the specialized cell in the gut that produce mucin which is actually the mucus, slimy stuff that makes up the gut barrier, they rely on that as energy. So it's almost like maybe there's a double whammy going on where it's like he bacteria are feeding on the mucin. That's breaking it down, but at the same time, the cells that make the mucin are being starved of the energy substrates they need to make that mucin.
+
+So you just got this double whammy compounded effect.
+
+Justin: Absolutely, yeah, that's a very interesting point and I don't there's been any systematic study to look at rate mucin production based on the fiber in the diet, but this would be very interesting because it's probably correct what you're proposing. It's a great hypothesis.
+
+Rhonda: Please look at it.
+
+Justin: Yeah, yeah, that's a very good idea.
+
+Rhonda: Please look at it. The other thing that came to mind was when Justin mentioned the effects of some of these short-chain fatty acids and other compounds that we have yet to identify, possibly how they affect the T-regulatory cells. And T-regulatory cells as you mentioned, they keep the immune system in check.
+
+They make sure that you're not having a hyperactive immune response which leads to autoimmune diseases, and I think I've read that type-1 diabetes, rheumatoid arthritis and multiple sclerosis, all of which have an autoimmune component to them have been linked to disruptions in the gut microbiome. And I think there's been direct evidence as well like looking in animal models.
+
+So you nailed it, right? These diseases of the Western world, I'm not sure if there's a complex interaction between people that have gene polymorphisms that already predisposed them to a hyperactive immune response, and then on top of that, having this unhealthy gut and not being able to make as many T-regs is like the perfect storm to create MS or type-1 diabetes or any kind of that.
+
+But at the very least, you can't control what genes that you're born with but you can control what you put into your mouth and what you put into your gut.
+
+Justin: Yeah. So I think you're exactly right, and actually I would go as far to say that I think all the focus on the human genome and the polymorphisms that predispose us to different diseases is actually very misguided. I think that's just overlaying normal human genetic variation on something that's very amiss in our environment, and namely our microbiota.
+
+And you named a few of the diseases for which excessive inflammation is thought to be a driver, but it extends far beyond that. Many cancers are driven by inflammation and heart disease is driven by inflammation. All the metabolic disorders are thought to be inflammation-promoted now and certainly all the autoimmune diseases.
+
+So you're talking about tens of diseases that we have in the Western world that largely aren't present in these traditional societies that have a much higher fiber consumption and also have a much more diverse gut microbiota. And so I think when you look at all these things together and then the mechanisms of how fiber degradation attenuates inflammation, it really looks like our lack of fiber in the Western world and our diet is deteriorating the microbiota.
+
+And this is predisposing us to tens of different diseases. I think it's very unlikely that there are tens of different causes for these diseases. I think that inflammation is the common denominator in the microbiota and our diet is really at the heart of this.
+
+Rhonda: Yeah, inflammation is a driver of aging. So you're talking about these diseases which many are age-related.
+
+So like you said, it's at the heart of all these diseases, and I think that it really is a driver of the aging process itself. In terms of the heart disease, that's the number one killer in the United states, and as Erica mentioned, when you're starving your gut microbiome of this fiber and the bacteria starts to break down the mucin and gut cells possibly aren't making as much mucin, then when those immune cells become in contact with the bacteria, they start to kill it because that's what they're programmed to do.
+
+Immune cells eat bacteria, "Okay, well, that's foreign. I'm going to kill it." So then what happens is they kill bacteria. This releases lipopolysaccharide, endotoxin. And what happens when you release endotoxin, it gets released in the bloodstream while your body has an adaptive response to it. It produces more cholesterol, the LDL, and the reason for that is because there's binding sites.
+
+The LDL receptors on the LDL and also on HDL cholesterol bind endotoxin as a way of stopping it up to protect your body. You don't want to go into sepsis, and so you're producing more cholesterol. That's why when you're in an inflamed state, you produce more cholesterol. And that's really a link that I think between inflammation and heart disease.
+
+It's also the reason why you should always get your cholesterol measured more than once, because you may be sick or stressed and you're inflamed and then your cholesterol is really high and your doctor might go, "Whoa, let's get you on statins." And maybe that's not the best scenario. But I want to get back to the fiber because you're talking about how important it is to get fiber and how we don't get as much fiber as our predecessors or whatever you want to call it.
+
+What kind of fiber? What kind of food sources do you think are...do you take a broad spectrum approach where you try to get all different types of fiber? Like Justin mentioned, we don't know what all these gut bacteria are producing. So can you talk a little bit about the types of fiber? How much fiber?
+
+Erica: Yeah, so the average American is eating around 10 to 15 grams of dietary fiber per day. The U.S. government recommends that we eat more along the lines of 30 to 35. So just by that measure, we're pretty fiber-deprived. If you look at these traditional populations that we study in our lab, these hunter-gatherers that lived in Tanzania, they're eating on the order of 100 to 150 grams of dietary fiber per day.
+
+It's clear that the amount of fiber that we're consuming as Americans is something that could be on the order of ten times less of what our ancestors probably ate in the past. So there's this issue of an amount of fiber that we just have to increase that to increase the food that's getting to our gut bacteria, but then there's also this issue of the diversity, the different types of fiber.
+
+So some people say to us, "Well, can I just take a whole bunch of Metamucil, get my 35 grams and then I'm good?" But what we're finding is that the diversity, the different types of complex carbohydrates that are found in dietary fiber are important. So you could imagine if you ate just one type of complex carbohydrate, there would be, say, a handful of bacteria that are really good at metabolizing or fermenting that type of carbohydrate.
+
+Those who get very abundant may be at the expense of other types of microbe. But if you're eating many different types of carbohydrates, complex carbohydrates, then you can foster a community, kind of an ecosystem that's more rich and robust. So if you are eating, say, 20 different types of dietary fibers, then you're providing sustenance from many different types of microbes that might specialize in different types of carbohydrate consumption.
+
+And that appears to be important, having a diverse community of bacteria in the gut. And so we think about it sometimes like as a rainforest. You want forests or...these ecosystems tend to be more stable when there's a lot of complexity of life on them. If you have, say, just a lawn of only grass, then one small thing happens and that would harm that grass and then everything dies or it's unstable.
+
+But if you have an ecosystem that has grass and trees and shrubs and all different things, then it's less likely to collapse after just one event. And so that's how we like to think about it. You want a diverse community of microbes in your gut and the best way to foster that is to provide them a diverse amount of substrate, a diverse amount of complex carbohydrates.
+
+Rhonda: So specifically what foods would you say would provide that diverse?
+
+Erica: So we think that foods, so fruits, vegetables, whole grains, and legumes are all foods that are high in dietary fiber, and so we try to consume many different types of each of those. And one sort of easy way to do this is to eat seasonally.
+
+So if you eat foods that are in season, you're more likely to eat over the span of a year a diverse collection of fruits and vegetables. I don't know if you have some other.
+
+Justin: The other piece of advice that I would give is just to avoid food that comes in wrappers or packages. I just think that the processed food manufacturers have not caught on to the importance of dietary fiber in health.
+
+And if you go to most of these processed foods, if they do claim high fiber, it's usually a single type of fiber that they're supplementing with, either inulin or psyllium husk or chicory or something like that, and it doesn't provide the breadth of fiber that you would get if you were to go to a produce section and pick a handful of vegetables to cook.
+
+So I just think that until the processed food, people get on board with the importance of fiber, it's good just to avoid food that comes in packages.
+
+Rhonda: So a couple of things come to mind. One is that maybe even probiotics aren't the magic pill either, but the other thing is the effect of processed food on the gut bacteria.
+
+Have you guys looked in to specifically any or do you know of anyone else's research in terms of mechanisms, what happens, how it affects the gut bacteria? I remember reading a paper, I believe it was published in Nature not too long ago, on the effect of artificial sweeteners like aspartame. Are you familiar with that?
+
+Justin: Yeah, absolutely, yeah. So there's a variety of compounds in processed foods now that seem to be problematic for the microbiota. The artificial sweeteners is a good example, and although the mechanism wasn't well delineated and how this is impacting the microbiota, it certainly appeared that artificial sweeteners and they looked at three different classes of artificial sweeteners.
+
+All affect the microbiota and go on and impact insulin-resistance in the host, so a measure of diabetes and metabolic syndrome. Similarly emulsifiers recently have been looked at. These are chemicals that are found in processed foods quite commonly, and it was shown that emulsifiers actually can break down the mucus layer, lead to bacteria getting closer to a host tissue and induce inflammation, and that also leads to metabolic problems.
+
+So I think that the other thing that processed foods do in addition to not providing dietary fiber is they provide all these other compounds that just, in most cases, haven't been well studied. And in the cases where they have been studied, it appears that they're problematic.
+
+And this is I guess somewhat intuitive when you consider that our body hasn't adapted to a lot of these chemicals that we're exposed to in processed foods. It doesn't know how to handle them, and they're therefore potentially problematic to our long term health.
+
+Rhonda: Yeah, so it's not just a lack of fiber, but also they're doing something actively bad in addition to that.
+
+So, again, one of those compounded effects. So the other thing that comes to mind is when you're talking about these compounds that our gut isn't used to, antibiotics. Obviously antibiotics have their place if it's a life or death situation, prescribing antibiotics. But the problem is that they're prescribed in many not life or death situations.
+
+In fact, they're very overprescribed for just things that are not necessary, sinus infection or a common cold. What effect does just even having like a single dose of antibiotics have on your gut microbiome, and how can we recover from that?
+
+What are the best ways we can recover from that?
+
+Erica: Yes, I think we have to realize that when antibiotics were developed, there was no thought placed on gut microbes. These are not drugs that were designed in any way to spare the bacteria that live in our gut.
+
+Most antibiotics that we take are in fact designed to be broad spectrum to kill a wide variety of microbes, so that they can be used for many different types of infection. Now what we're finding is that these antibiotics do wreak havoc in our guts. So many of the microbes that are beneficial that inhabit us are killed by these antibiotics, and what we're finding is that often the microbiota...it is able to rebound, but often it is not able to rebound exactly as it was before.
+
+And from studies done, others at Stanford, not us, but a colleague of ours, David Relman, they showed that with multiple rounds of antibiotics, with each additional round, there is another sort of hit that the microbiota takes that makes it less likely to recover.
+
+So with each additional round of antibiotics, they saw an increase deterioration of the bacteria, the community that was there in a way that it was not able to go back to the state that it was before. We don't know exactly what that means but there's a lot of evidence that, for example, children that go on multiple rounds of antibiotics are more likely to develop a lot of these autoimmune diseases like asthma and allergies, and so there's evidence that this lot of antibiotic use is detrimental for our health.
+
+And then children that take antibiotics but, say, have a family pet. So there's an example of bringing microbes back into our world by having an animal that those children are somewhat protected from the antibiotic effects just through increased environmental microbial exposure.
+
+So there is kind of this, too. We're killing microbes with the antibiotics, but then if we can reintroduce more microbes so in cases where you really do need antibiotics, we need to think about ways of repopulating that community in a beneficial way to kind of mitigate the effects that antibiotics have on our gut.
+
+Justin: And I think it's important to recognize that antibiotics are wonderful drugs if they're used appropriately, and I think the problem is that for many years they were used without recognition that there's a cost associated. I think the first cost that was recognized was the idea of antibiotic-resistance, and if antibiotics are overused, you can actually get pathogens that are resistant to these drugs that then are very difficult to eradicate.
+
+And I think there's a second way of recognition for reasons to limit antibiotic use, which is that there is a cost associated with harming our resident microbes. I think, from a very practical sense, just talking with people that work in our lab and other people that are in the field of microbiota research. If you have a conversation with your physician and let them know that you don't expect antibiotics every time you get sick, that if a wait-and-see approach is appropriate, that you're comfortable with that.
+
+A lot of times physicians will not prescribe antibiotics when they otherwise would. We've heard of physicians that would say thing like, "I thought you wanted antibiotics. I'm fine with not giving you any." And so I think it's just important for people to understand that every time they take antibiotics, they're harming this really important part of their biology.
+
+And if they can avoid it, that's certainly a better course of action.
+
+Rhonda: Yeah, so if it is necessary for let's say in the case of a surgery or something, after the antibiotic course, then just eating the fiber, if you've deplete those, if you've killed off those beneficial bacteria often called commensal bacteria that are producing all these compounds, short-fatty chains included, if you kill it off, eating dietary fiber only can do so much.
+
+So what about repopulating it with the bacteria itself? Probiotics, foods that contain probiotics. Are there ways that you think are better than others?
+
+Justin: Yeah. So this is something that really hasn't been explored experimentally in great detail, the best way to recover after some major perturbation, whether it's antibiotics or preparation for a colonoscopy or food poisoning, diarrhea or something like that.
+
+And so I think if you look at trials that have been performed, probiotics certainly have a place in recovery from these major perturbations. It's clear that probiotics, either in supplement form or in fermented foods, things like yoghurt can actually shorten the duration of antibiotic associated diarrhea or make it less common in people taking probiotics.
+
+And so this really suggests that the probiotics are doing something beneficial. Now that mechanism isn't well-understood, but it's I think fairly well recognized that these organisms that you can buy as supplements or you find in fermented foods don't take up permanent residence in the gut typically, but they do something as they're passing through this community.
+
+It's known that they can be viable, they're alive and they can actually have interactions either with the microbiota or with the host's immune system. And so I think a nice way to think of it is just using probiotics as place holders while your microbiota is recovering. Using those organisms that are present in fermented foods, for instance, can actually help to prevent pathogens, bad bacteria from taking up residence during that time.
+
+Rhonda: Right. I've read a few studies with a probiotic called VSL#3, which I use myself. I definitely use it if I have to take our kids over a round of antibiotics, but it's got like 450 billion bacteria which is like 10 times more than anything else in the market.
+
+If you think about, you take a probiotic. Not to mention, it comes shipped cold. A lot of these probiotics in the market I think also are dead. They're dehydrated dead bugs. And so there's been 25 published studies, both clinical trials and also animal studies, where I've seen it's actually effective. It does increase certain amounts of commensal bacteria.
+
+It does lower inflammation. In fact, it also increases brain-derived neurotrophic factors in the brain. So it's having an effect in the brain. But I did a personal trial myself where I took VSL#3 for 30 days, and I measured... Well, I didn't specifically measure. I used uBiome, a company allows you to send in a little sample of your poop and they'll tell you what sort of bacteria are in it.
+
+So I did this before. And after my 30 days of VSL#3, I was very interested to see that I was expecting just to have an increase in some of these commensal bacteria that were in the probiotic. But what I found to my surprise was that I had new strains of bacteria that weren't identified previously cropping up.
+
+I am not sure if that's because the commensal bacteria were making more of these compounds, which were feeding other types of bacteria that couldn't be detected. Now they are flourishing or what, but that was sort of surprising to me to see. But I think that in terms of recovering from something like antibiotic use or even people that have inflammatory bowel disease or colitis, eating these fermented foods, eating the fiber, broad spectrum fiber and possibly doing a round of the VSL#3 may be a good thing to do after any sort of procedure.
+
+Justin: Yeah. I think your story is really interesting in a couple respects. So the first is that I think it really reinforces this idea that we have this complex ecosystem like a rain forest inside of us, and you could imagine that adding a bunch of new species at high numbers to a rainforest doesn't just result in those new species being there but could lead to an entirely different chain of interactions and ecology that would crop up over a certain period of time.
+
+So it's not hard to believe that you would see new species flourishing in the presence of these new community members added at high numbers. I think the other thing to be aware of is and I think you're insinuating this with talking specifically about VSL#3 that the supplement market is a mess. It's not regulated. There are a lot of really poor products out there.
+
+Many of which don't have the viable organisms that they suggest they have in their label. Many of them don't have the actual species that they say that they do on their label or they have contaminants that are present. And so I think it's really important if people want to go the route of probiotic supplements to make sure you go with a company that you trust.
+
+There are independent organizations that can verify the contents of probiotic supplements. So USP is a symbol that you can look for in probiotic supplements as an independent verification of the contents. Not efficacy but of the contents. And then I think fermented foods are a really great way to go just because you get this diversity of microorganisms, and we really don't know which ones are best for different individuals.
+
+And so it really requires that each person take a personalized approach to this, becomes systematic in testing what appears to work well, be compatible with your system and isn't causing problematic side effects. And so that's just kind of a personal journey that each person has to go on.
+
+Rhonda: No, that's really a good insight and advice. Another thing I wanted to just touch on briefly because I know that you guys have talked about something that has to do with the origin of our microbiome, starting from when we are born. So, I'm not sure actually if you guys know about the development of it in utero at all or if it's known at all how that works in terms of what the mom's eating or doing, etc.
+
+So starting from conception in utero development to giving birth, can you talk a little bit about that and the development of the microbiome?
+
+Erica: Yeah. So I think for many years, it was largely thought that while the baby was still in the womb that that was an environment that was largely devoid of bacteria.
+
+And now there's starting to be some new studies that looks like maybe there are some bacteria in the amniotic fluid, but it's clear that even if that pans out to be true, that these are not major contributors to the initial colony that forms in the newborn infant. So when you're born, you're born your with gut largely sterile.
+
+And what happens at that point is there's this land rush by microbes to colonize this new habitat. And what we've seen is that children depending on if they're born by C-section or vaginally will have a very different initial microbial community. So children born vaginally have got microbiota initially that looks more like that of their mother's colon or vagina.
+
+Whereas children that are born by C-section actually have microbes in their gut that are more...the types of microbes that we find more on skin and not necessarily the mother's skin, maybe the doctor's or nurse's skin. So that initial colonization is dependent on the method of birth, but there's all these other things that happen initially in a child's life that can really dictate how the community goes.
+
+So whether a child is breastfed or formula fed has a huge impact on the microbes. So this is the baby's diet and diet, we know, is basically one of the major levers to control this community. So babies that are fed formula, their microbiota looks very different than breast milk.
+
+Actually what we see is breast milk has a component of it. One of the major components of breast milk is this type of carbohydrate called human milk oligosaccharides or HMOs. For a long time, it was really a mystery why those molecules were there because we knew that humans can't digest human milk oligosaccharides.
+
+So why would a mother put so much effort into creating these compounds and putting them in her milk if her baby can't even digest it? We'll come to find out it's actually the gut microbes that are digesting these HMOs. So in breast milk, there's not just food for the baby in the form of lactose and fats, but these HMOs that are food for the baby's growing microbiota. So the mother's feeding the baby and also her baby's growing microbiota.
+
+And these HMOs are very specific for human milk and so far have not been able to be replicated in formula. And so that, we think is a large reason why the communities are so different. And then of course antibiotics, the average American child is on a round of antibiotics every year, and we know that makes a huge impact on that growing community.
+
+So all these things that happen early in life could really set a child on a trajectory potentially for having potentially a very good, healthy, robust microbiota or potentially one that isn't as good. So I think as parents especially of new children, we need to be very mindful of the choices that we make early in a child's life because many of these microbes that we have by the time, say, the age of five, many of these microbes will be with us throughout our entire lives so we really want get that community started in the best possible way.
+
+Rhonda: So very interesting in terms of giving a vaginal delivery, then do you think that the mother making sure that her bacteria in the vagina is populated with the right or good types of bacteria, something she can do during pregnancy or before that may help with that? Are there certain rules?
+
+Erica: Yeah. I don't think that that's been studied extensively. I think just common sense wise, you would imagine that foods that are healthy for the mother's microbiota, which would be coming from a diet that's high in dietary fiber and fermented foods, that that would be a good community to pass on to her child. But that hasn't been look at very carefully.
+
+Rhonda: Yeah, that would make sense logically, and the breast milk, obviously very important. Do you know why certain mothers choose to use formula? Is there a reason for that?
+
+Erica: I think there are probably many reasons. I personally breast fed to my two children, and I can say as a working mother, it was a challenge. A lot of work environments don't make it so easy to pump milk and provide breast milk for your child. It's a huge caloric load. So I think a lot of mothers don't realize that you require more calories for generating breast milk than you did during pregnancy.
+
+So that's a huge workload for the mother at a time when her infant is young and isn't sleeping well. I think there's a lot of reasons why women choose not to breastfeed, and unfortunately this is a whole society issue that I think we need to address just on making that easier for mothers especially for working mothers because we know it appears to be so important for the health of our child.
+
+Rhonda: Perhaps now knowing the effect on the microbiome and setting them up for life is probably a good motivating factor to do the extra work if you can. But this has been a very interesting conversation. There's so much more I wanted to talk about in terms of obesity, transplanting gut bacteria from lean mice into obese, making them lean and vice versa, and the brain. But I think we're running out of time. So people that want to learn more about your research, you guys wrote a book, if you want to talk about that, where can they find those things?
+
+Justin: Yeah. So we do research at Stanford, and our lab website is sonnenburglab.stanford.edu and this gives an overview of all the various things that we're studying in the lab. I think our background as researchers, there was a really interesting intersection between a research impacting our own personal life. We realized we were raising our kids differently.
+
+We were eating a different diet because of this research that we're doing on the gut microbiota. And then we started talking to the other scientists in our field and realizing that they were making the same changes to their lifestyle that we were making. And then we talked to other scientists and other friends that didn't know about the gut microbiota, and they weren't doing these things. It really struck us that it shouldn't be just the scientists studying this field that had the access to the information to make changes to lifestyle and diet.
+
+And so that really prompted us to try to get this message out there. And our first step in doing this has been writing a book called "The Good Gut: Taking Control of Your Weight, Your Mood, and Your Long Term Health" and this is available on Amazon. And it goes over the science very broadly, but it also attaches that science to practical advice, how we've changed our lifestyle and how we think provides insight into how you can change what you're eating and what you're doing to positively impact your gut microbiota.
+
+And it even has short section of recipes, examples of how we feed our family.
+
+Erica: Yeah, and the other thing I would add is we have a Facebook page, facebook.com/thegoodgut where we post things like interesting studies that have come out recently that are a broad appeal to lots people. So we post on there a couple times a week.
+
+Rhonda: Great. Awesome, guys. Well, check out the Sonnenburgs.

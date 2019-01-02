@@ -52,6 +52,7 @@
       <e p="ExploreElasticSearch.Core" t="IncludeRecursive">
         <e p="Bin" t="ExcludeRecursive" />
         <e p="Common" t="Include">
+          <e p="Honorific.cs" t="Include" />
           <e p="IndexName.cs" t="Include" />
         </e>
         <e p="ExploreElasticSearch.Core.csproj" t="IncludeRecursive" />
@@ -71,8 +72,14 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="PdfTextExtractor" t="IncludeRecursive">
         <e p="Bin" t="ExcludeRecursive" />
-        <e p="DocumentIndexerHelper.cs" t="Include" />
+        <e p="DocumentIndexerFactory.cs" t="Include" />
+        <e p="DocumentIndexerType.cs" t="Include" />
+        <e p="FileHelper.cs" t="Include" />
+        <e p="FileType.cs" t="Include" />
+        <e p="FileTypeResolver.cs" t="Include" />
         <e p="IDocumentIndexer.cs" t="Include" />
+        <e p="ITextExtractor.cs" t="Include" />
+        <e p="ITextExtractorFactory.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.1" t="Include">
@@ -83,6 +90,9 @@
         <e p="PdfTextExtractor.cs" t="Include" />
         <e p="PdfTextExtractor.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
+        <e p="RhondaPatrickPodcastIndexer.cs" t="Include" />
+        <e p="TextExtractorFactory.cs" t="Include" />
+        <e p="TextFileTextExtractor.cs" t="Include" />
         <e p="TimFerrissPodcastIndexer.cs" t="Include" />
       </e>
     </e>

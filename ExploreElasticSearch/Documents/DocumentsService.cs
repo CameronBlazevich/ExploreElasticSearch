@@ -1,4 +1,3 @@
-
 using System.Collections.Generic;
 using System.Linq;
 using ElasticSearchClient;
@@ -18,21 +17,28 @@ namespace ExploreElasticSearch.Documents
         {
             _client = client;
         }
-        
+
         public SearchDocumentsResponse Search(string searchPhrase)
         {
-            var result =  _client.Search(searchPhrase);
+            var result = _client.Search(searchPhrase);
 
             var searchResponse = new SearchDocumentsResponse();
 
             foreach (var hit in result.Hits)
             {
-                var searchResult = new SearchResult();
-                searchResult.ParentArticle.RelevancyScore = hit.Score;
-                
-                searchResult.ParentArticle.Title = $"Episode {hit.Source.Id}: {hit.Source.Title}";
-                searchResult.ParentArticle.Author = hit.Source.Author;
-               
+                var searchResult = new SearchResult
+                {
+                    ParentArticle =
+                    {
+                        RelevancyScore = hit.Score,
+                        Title = hit.Source.Title,
+                        Author = hit.Source.Author,
+                        MetaTitle = hit.Source.MetaTitle,
+                        Participants = hit.Source.Participants
+                    }
+                };
+
+
                 var highlights = hit.Highlights.Values;
 
                 foreach (var highlight in highlights)
@@ -40,10 +46,10 @@ namespace ExploreElasticSearch.Documents
                     var snippets = highlight.Highlights.ToList();
                     foreach (var snippet in snippets)
                     {
-                        searchResult.Highlights.Add(new Highlight{Snippet = snippet});
+                        searchResult.Highlights.Add(new Highlight {Snippet = snippet});
                     }
                 }
-                
+
                 searchResponse.SearchResults.Add(searchResult);
             }
 

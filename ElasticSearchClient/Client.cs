@@ -56,6 +56,11 @@ namespace ElasticSearchClient
         {
             var response = _elasticClient.Index(documentToIndex, idx => idx.Index(ExploreElasticSearch.Core.Common.IndexNames.PodcastsAndInterviews));
         }
+
+        public void DeleteIndex()
+        {
+            var response = _elasticClient.DeleteIndex(ExploreElasticSearch.Core.Common.IndexNames.PodcastsAndInterviews);
+        }
     }
 }
 

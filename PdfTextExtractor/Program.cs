@@ -10,21 +10,51 @@ namespace PdfTextExtractor
     {
         static void Main(string[] args)
         {
-            var documentIndexer = new TimFerrissPodcastIndexer();
-            var documentIndexerHelper = new DocumentIndexerHelper();
+//            const string timFerrissDirectoryPath =
+//                @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\TimFerriss";
+//
+//            IndexDocuments(timFerrissDirectoryPath);
 
-            const string timFerrissDirectoryPath =
+            const string dirPath =
                 @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\";
 
-            IndexDocuments(timFerrissDirectoryPath, documentIndexer, documentIndexerHelper);
+            IndexDocumentsMultiLevelDirectory(dirPath);
 
             Console.ReadLine();
         }
 
+        private static void IndexDocumentsMultiLevelDirectory(string directoryPath)
+        {
+            var documentIndexerFactory = new DocumentIndexerFactory();
+            var fileHelper = new FileHelper();
+            var childDirectoryPaths = fileHelper.GetChildDirectories(directoryPath);
+            foreach (var childDirectoryPath in childDirectoryPaths)
+            {
+                var documentIndexer = documentIndexerFactory.GetDocumentIndexer(childDirectoryPath);
+                IndexDocuments(childDirectoryPath, documentIndexer, fileHelper);
+            }
+        }
 
         private static void IndexDocuments(string directoryPath, IDocumentIndexer documentIndexer,
-            DocumentIndexerHelper documentIndexerHelper)
+            FileHelper fileHelper)
         {
+            var filePaths = fileHelper.GetFilePaths(directoryPath);
+            foreach (var filePath in filePaths)
+            {
+                var documentToIndex = documentIndexer.GetDocumentToIndex(filePath);
+
+                PrintDocumentInfo(documentToIndex);
+                IndexDocument(documentToIndex);
+            }
+        }
+
+
+        private static void IndexDocuments(string directoryPath)
+        {
+            var documentIndexerFactory = new DocumentIndexerFactory();
+            var documentIndexer = documentIndexerFactory.GetDocumentIndexer(directoryPath);
+            var documentIndexerHelper = new FileHelper();
+
             var filePaths = documentIndexerHelper.GetFilePaths(directoryPath);
             foreach (var filePath in filePaths)
             {
@@ -49,6 +79,12 @@ namespace PdfTextExtractor
         {
             var elasticClient = new Client();
             elasticClient.IndexDocument(documentToIndex);
+        }
+
+        private static void DeleteIndex()
+        {
+            var elasticClient = new Client();
+            elasticClient.DeleteIndex();
         }
     }
 }
