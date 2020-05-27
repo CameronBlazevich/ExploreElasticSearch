@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using ElasticSearchClient;
 using ExploreElasticSearch.Core.Models;
@@ -10,6 +12,7 @@ namespace PdfTextExtractor
     {
         static void Main(string[] args)
         {
+            DeleteIndex();
 //            const string timFerrissDirectoryPath =
 //                @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\TimFerriss";
 //
@@ -23,6 +26,8 @@ namespace PdfTextExtractor
             Console.ReadLine();
         }
 
+        private static List<string> FoldersToSkip = new List<string> { "TimFerriss", "RhondaPatrick"};
+
         private static void IndexDocumentsMultiLevelDirectory(string directoryPath)
         {
             var documentIndexerFactory = new DocumentIndexerFactory();
@@ -30,6 +35,15 @@ namespace PdfTextExtractor
             var childDirectoryPaths = fileHelper.GetChildDirectories(directoryPath);
             foreach (var childDirectoryPath in childDirectoryPaths)
             {
+                
+                //delete this
+                var dirName = new DirectoryInfo(childDirectoryPath).Name;
+                if (FoldersToSkip.Contains(dirName))
+                {
+                    continue;
+                }
+                
+                
                 var documentIndexer = documentIndexerFactory.GetDocumentIndexer(childDirectoryPath);
                 IndexDocuments(childDirectoryPath, documentIndexer, fileHelper);
             }

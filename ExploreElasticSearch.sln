@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreElasticSearch", "ExploreElasticSearch\ExploreElasticSearch.csproj", "{C1DD7C27-6D9C-452F-808E-173DD2A88221}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfTextExtractor", "PdfTextExtractor\PdfTextExtractor.csproj", "{A16D9224-8B77-45DE-B349-50513177168A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentIndexer", "DocumentIndexer\DocumentIndexer.csproj", "{A16D9224-8B77-45DE-B349-50513177168A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSearchClient", "ElasticSearchClient\ElasticSearchClient.csproj", "{6EF89882-2989-40A4-BEDD-AC6E912A1E76}"
 EndProject

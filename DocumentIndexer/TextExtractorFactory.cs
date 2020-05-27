@@ -20,7 +20,7 @@ namespace PdfTextExtractor
                 return textExtractor;    
             }
 
-            throw new Exception("AHHHHHHH, not text extractor found");
+            throw new Exception("AHHHHHHH, no text extractor found");
         }
     }
 }

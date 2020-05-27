@@ -10,7 +10,7 @@ namespace ElasticSearchClient
 
         public Client()
         {
-            var node = new Uri("https://cefadbfa54fa43ec9b550cdfafa67337.us-east-1.aws.found.io:9243");
+            var node = new Uri("http://localhost.fiddler:9200");
             var settings = new ConnectionSettings(node)
                 .BasicAuthentication("elastic", "khuRBZ0VqguvdK9YwhMGzcxT")
                 .DefaultIndex(ExploreElasticSearch.Core.Common.IndexNames.PodcastsAndInterviews);
@@ -59,6 +59,7 @@ namespace ElasticSearchClient
 
         public void DeleteIndex()
         {
+//            throw new NotImplementedException();
             var response = _elasticClient.DeleteIndex(ExploreElasticSearch.Core.Common.IndexNames.PodcastsAndInterviews);
         }
     }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using PdfTextExtractor.Indexers;
 
 namespace PdfTextExtractor
 {
@@ -9,7 +10,8 @@ namespace PdfTextExtractor
         private Dictionary<DocumentIndexerType, IDocumentIndexer> _documentIndexers = new Dictionary<DocumentIndexerType, IDocumentIndexer>
         {
             {DocumentIndexerType.TimFerriss, new TimFerrissPodcastIndexer(new TextExtractorFactory())},
-            {DocumentIndexerType.RhondaPatrick, new RhondaPatrickPodcastIndexer(new TextExtractorFactory())}
+            {DocumentIndexerType.RhondaPatrick, new RhondaPatrickPodcastIndexer(new TextExtractorFactory())},
+            {DocumentIndexerType.BenPakulski, new BenPakulskiPodcastIndexer(new TextExtractorFactory())}
         };
         
         public IDocumentIndexer GetDocumentIndexer(string filePath)

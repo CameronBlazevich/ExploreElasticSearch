@@ -3,7 +3,7 @@ using System.Globalization;
 using ExploreElasticSearch.Core.Common;
 using ExploreElasticSearch.Core.Models;
 
-namespace PdfTextExtractor
+namespace PdfTextExtractor.Indexers
 {
     public class RhondaPatrickPodcastIndexer : IDocumentIndexer
     {
@@ -73,31 +73,11 @@ namespace PdfTextExtractor
                 fileName.IndexOf("-on-", StringComparison.InvariantCultureIgnoreCase) -
                 (fileName.IndexOf("-", StringComparison.InvariantCultureIgnoreCase) + 1));
 
-            var guestsNameParts = guestsName.Split('-');
-            var numberOfNameParts = guestsNameParts.Length;
-
-            Participant participant;
-            if (Enum.TryParse(guestsNameParts[0], true, out Honorific honorific))
-            {
-                if (numberOfNameParts == 4)
-                {
-                    participant = new Participant(honorific.ToString(), guestsNameParts[1], guestsNameParts[2],
-                        guestsNameParts[3]);
-                }
-                else
-                {
-                    participant = new Participant(honorific.ToString(), guestsNameParts[1], guestsNameParts[2]);
-                }
-            }
-            else
-            {
-                participant = numberOfNameParts == 3
-                    ? new Participant(null, guestsNameParts[0], guestsNameParts[1], guestsNameParts[2])
-                    : new Participant(null, guestsNameParts[0], guestsNameParts[1]);
-            }
-
-            return participant;
+            var charToSplitOn = '-';
+            return NameParser.ParseParticipantName(guestsName, charToSplitOn);
         }
+
+        
 
         private string GetRawTitleWithParticipant(string fileName)
         {

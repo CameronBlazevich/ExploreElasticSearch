@@ -50,14 +50,14 @@
     "Elasticsearch.Net/6.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vOnMRC2C2iCfMyMivNhzbRndE4TVmfiXrqNwx87VMlHcOFkjScOpVB3ZufLD96cfs1XooIbY68j7Htf+joFDUA==",
+      "sha512": "sha512-ICknvxgA7Wu0fqc2PuOuazUMaRs3VI2GzR4g+Vv/p/8iT7UqYVJBDkwbOTRVdSFbOHL5ul1iNGilUgYtZPLFJQ==",
       "path": "elasticsearch.net/6.4.0",
       "hashPath": "elasticsearch.net.6.4.0.nupkg.sha512"
     },
     "NEST/6.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EfMc+LCDqfA30DZ0byyMFX93f+ku1sM1wDw6tQByBftI8ggVSPG+KHYAswVuWGEGMDCSoWyFOIU0qp+OHusqrQ==",
+      "sha512": "sha512-HqS7yxC5q1PxNe93jRi239RNCyxPVg7lbk9y4eLNpk15P5YW+ZAnVm+O3FcEXwNOiQFKRhiZXKkYF1mEkyCYcg==",
       "path": "nest/6.4.0",
       "hashPath": "nest.6.4.0.nupkg.sha512"
     },
