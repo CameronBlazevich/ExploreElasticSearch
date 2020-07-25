@@ -2,479 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04affd35-fca0-45ab-a1bf-88892a248de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ExploreElasticSearch.Core/Common/Honorific.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PdfTextExtractor/DocumentIndexerFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PdfTextExtractor/DocumentIndexerType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PdfTextExtractor/FileHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PdfTextExtractor/FileType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PdfTextExtractor/FileTypeResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PdfTextExtractor/ITextExtractor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PdfTextExtractor/ITextExtractorFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PdfTextExtractor/RhondaPatrickPodcastIndexer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PdfTextExtractor/TextExtractorFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PdfTextExtractor/TextFileTextExtractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ExploreElasticSearch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExploreElasticSearch/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ExploreElasticSearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExploreElasticSearch/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElasticSearchClient/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearchClient/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Participant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Participant.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/Documents/DocumentsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/Documents/DocumentsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/Article.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/Article.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/DocumentIndexerHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/PdfTextExtractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/PdfTextExtractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticSearchClient/bin/Debug/netcoreapp2.1/ElasticSearchClient.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearchClient/bin/Debug/netcoreapp2.1/ElasticSearchClient.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticSearchClient/obj/Debug/netcoreapp2.1/ElasticSearchClient.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearchClient/obj/Debug/netcoreapp2.1/ElasticSearchClient.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticSearchClient/obj/Debug/netcoreapp2.1/ElasticSearchClient.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearchClient/obj/Debug/netcoreapp2.1/ElasticSearchClient.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticSearchClient/obj/ElasticSearchClient.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearchClient/obj/ElasticSearchClient.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticSearchClient/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearchClient/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticSearchClient/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearchClient/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch.Core/bin/Debug/netcoreapp2.1/ExploreElasticSearch.Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch.Core/bin/Debug/netcoreapp2.1/ExploreElasticSearch.Core.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch.Core/obj/Debug/netcoreapp2.1/ExploreElasticSearch.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch.Core/obj/Debug/netcoreapp2.1/ExploreElasticSearch.Core.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch.Core/obj/Debug/netcoreapp2.1/ExploreElasticSearch.Core.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch.Core/obj/Debug/netcoreapp2.1/ExploreElasticSearch.Core.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch.Core/obj/ExploreElasticSearch.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch.Core/obj/ExploreElasticSearch.Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/bin/Debug/netcoreapp2.1/ExploreElasticSearch.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/bin/Debug/netcoreapp2.1/ExploreElasticSearch.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/bin/Debug/netcoreapp2.1/ExploreElasticSearch.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/bin/Debug/netcoreapp2.1/ExploreElasticSearch.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/obj/Debug/netcoreapp2.1/ExploreElasticSearch.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/obj/Debug/netcoreapp2.1/ExploreElasticSearch.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/obj/Debug/netcoreapp2.1/ExploreElasticSearch.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/obj/Debug/netcoreapp2.1/ExploreElasticSearch.RazorAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/obj/Debug/netcoreapp2.1/ExploreElasticSearch.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/obj/Debug/netcoreapp2.1/ExploreElasticSearch.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/obj/ExploreElasticSearch.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/obj/ExploreElasticSearch.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/obj/ExploreElasticSearch.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/obj/ExploreElasticSearch.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploreElasticSearch/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExploreElasticSearch/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/PdfTextExtractor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/PdfTextExtractor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PdfTextExtractor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/TimFerrissPodcastIndexer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/TimFerrissPodcastIndexer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/01-kevin-rose.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/02-josh-waitzkin.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/03-kelly-starrett-and-justin-megar.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/04-ryan-holiday.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/05-jason-silva.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/06-tim-ferriss-6-formulas-for-more-output-and-less-overwhelm.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/07-stephen-dubner.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/08-chase-jarvis.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/09-tim-ferriss-the-9-habits-to-stop-now.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/10-brian-koppelman.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/100-brene-brown.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/101-reid-hoffman-and-michael-mccullough.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/102-wim-hof.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/103-tim-ferriss-episode-100-drunk-dialing-fans.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/104-martin-polanco-and-dan-engle.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/105-5-morning-rituals-that-help-me-win-the-day.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/106-scott-adams.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/107-jocko-willink.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/108-seth-rogen-evan-goldberg.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/109-tim-ferriss-5-things-i-did-to-become-a-better-investor.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/11-tim-ferriss-drugs-and-the-meaning-of-life.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/110-richard-betts.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/111-tim-ferriss-conversation-at-expa-should-you-start-a-startup.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/112-sophia-amoruso.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/113-tim-ferriss-5-tools-i-use-for-faster-and-better-sleep.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/114-jimmy-chin.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/115-lisa-randall.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/116-casey-neistat.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/117-dominic-dagostino.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/118-alain-de-botton.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/119-kevin-costner.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/12-rhonda-patrick.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/120-william-macaskill.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/121-bj-novak.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/122-tim-ferriss-the-magic-of-mindfulness.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/123-rainn-wilson.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/124-jamie-foxx.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/125-derek-sivers.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/126-tim-ferriss-25-great-things-ive-learned-from-podcast-guests.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/127-amelia-boone.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/129-random-show.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/13-tim-ferriss-productivity-tricks-for-the-neurotic.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/131-eric-weinstein.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/132-chris-sacca.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/134-tim-ferriss-the-tao-of-seneca.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/135-luis-von-ahn.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/137-tim-ferriss-how-to-practice-poverty-and-reduce-fear.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/138-seth-godin.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/14-sam-harris.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/140-shaun-white.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/141-kaskade-and-sekou-andrews.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/142-tim-ferriss-how-to-achieve-self-ownership.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/143-patrick-arnold.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/144-10x-results-with-joel-stein.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/145-cal-fussman.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/146-random-show.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/147-tim-ferriss-how-to-avoid-the-busy-trap.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/148-josh-waitzkin.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/149-tim-ferriss-how-to-live-in-the-moment.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/15-neil-strauss.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/150-morgan-spurlock.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/16-joe-de-sena.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/17-tim-ferriss-the-power-of-negative-visualization.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/18-james-altucher.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/19-tim-ferriss-the-top-5-reasons-to-be-a-jack-of-all-trades.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/20-dan-carlin.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/21-mike-shinoda.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/22-ed-catmull.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/23-tim-ferriss-do-22homeopathic22-remedies-or-medicine-work.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/24-random-show.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/25-26-27-kevin-kelly (1).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/25-26-27-kevin-kelly (2).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/25-26-27-kevin-kelly.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/28-peter-thiel.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/29-brendan-moynihan.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/30-31-32-tracy-dinunzio (1).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/30-31-32-tracy-dinunzio (2).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/30-31-32-tracy-dinunzio.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/33-ramit-sethi.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/34-ramit-sethi.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/35-tony-robbins-and-peter-diamandis.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/36-alexis-ohanian.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/37-tony-robbins-part-1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/38-tony-robbins-part-2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/39-maria-popova.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/40-andrew-zimmern.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/41-rolf-potts-part-1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/42-rolf-potts-part-2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/43-margaret-cho.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/44-tim-ferriss-how-to-avoid-decision-fatigue.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/45-nick-ganju.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/46-random-show.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/47-bryan-callen.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/48-marc-goodman.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/49-tim-ferriss-tim-answers-your-10-most-popular-questions.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/50-peter-attia.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/51-tim-ferriss-tim-answers-10-more-popular-questions-from-listeners.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/52-53-ed-cooke (1).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/52-53-ed-cooke.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/54-jonathan-eisen-jessica-richman.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/55-pavel-tsatsouline.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/56-peter-diamandis.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/57-pavel-tsatsouline.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/58-alex-blumberg-part-1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/59-alex-blumberg-part-2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/60-arnold-schwarzenegger.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/61-matt-mullenweg.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/62-justin-boreta.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/63-mark-hart-and-raoul-pal.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/64-kelly-starrett.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/65-peter-attia.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/66-james-fadiman.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/67-amanda-palmer.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/69-glenn-beck.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/71-jon-favreau.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/72-paul-levesque-tfs.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/74-samy-kamkar-part-1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/74-samy-kamkar-part-2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/75-noah-kagan.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/76-rick-rubin.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/77-danielle-and-astro-teller.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/78-tim-ferriss-how-to-build-a-large-audience-from-scratch.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/79-chris-sacca.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/81-bryan-johnson.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/82-sam-kass.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/83-adam-gazzaley.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/84-whitney-cummings.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/85-kelly-starrett.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/86-stanley-mcchrystal-chris-fussell.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/87-sam-harris.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/88-stanley-mcchrystal.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/89-laird-hamilton-gabrielle-reece-brian-mackenzie.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/90-peter-diamandis.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/91-charles-poliquin.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/92-maria-popova.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/93-jane-mcgonigal.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/94-tara-brach.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/95-phil-libin.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/96-kevin-kelly.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/97-naval-ravikant.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/98-robert-rodriguez.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcripts/99-tim-ferriss-how-to-build-a-world-class-network-in-record-time.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/bin/Debug/netcoreapp2.1/PdfTextExtractor.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/bin/Debug/netcoreapp2.1/PdfTextExtractor.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/bin/Debug/netcoreapp2.1/PdfTextExtractor.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/bin/Debug/netcoreapp2.1/PdfTextExtractor.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/obj/Debug/netcoreapp2.1/PdfTextExtractor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/obj/Debug/netcoreapp2.1/PdfTextExtractor.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/obj/Debug/netcoreapp2.1/PdfTextExtractor.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/obj/Debug/netcoreapp2.1/PdfTextExtractor.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/obj/PdfTextExtractor.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/obj/PdfTextExtractor.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PdfTextExtractor/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PdfTextExtractor/obj/project.packagespec.json" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1443959620">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="5" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cs" value="76" />
-          <entry key="csproj" value="2" />
-          <entry key="json" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="C#" value="76" />
-          <entry key="Csproj" value="2" />
-          <entry key="JSON" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cs" value="14671" />
-          <entry key="csproj" value="1" />
-          <entry key="json" value="32" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="C#" value="14671" />
-          <entry key="Csproj" value="1" />
-          <entry key="JSON" value="32" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46622807">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PdfTextExtractor/Program.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="627">
-                  <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-                  <folding>
-                    <marker date="1545929687682" expanded="false" signature="6:99" ph="..." />
-                    <marker date="1545929687682" expanded="true" signature="128:3111" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="148:3109" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="194:639" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="205:415" ph="/* const string timFerrissDirectoryPath = ... */" />
-                    <marker date="1545929687682" expanded="true" signature="724:1225" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="1005:1215" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="1360:1709" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="1486:1699" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="1776:2358" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="2135:2348" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="2431:2760" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="2619:2750" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="2829:2953" ph="{...}" />
-                    <marker date="1545929687682" expanded="true" signature="2996:3103" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PdfTextExtractor/RhondaPatrickPodcastIndexer.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-                  <folding>
-                    <marker date="1545842408103" expanded="true" signature="6:121" ph="..." />
-                    <marker date="1545842408103" expanded="true" signature="149:4837" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="215:4835" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="428:550" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="611:734" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="799:1825" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="1213:1478" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="1875:2246" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="2307:3698" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="2933:3368" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="2991:3184" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="3205:3354" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="3385:3655" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="3766:4127" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="4198:4565" ph="{...}" />
-                    <marker date="1545842408103" expanded="true" signature="4622:4829" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PdfTextExtractor/FileHelper.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-                  <folding>
-                    <marker date="1545766155807" expanded="false" signature="6:50" ph="..." />
-                    <marker date="1545766155807" expanded="true" signature="78:681" ph="{...}" />
-                    <marker date="1545766155807" expanded="true" signature="108:679" ph="{...}" />
-                    <marker date="1545766155807" expanded="true" signature="184:298" ph="{...}" />
-                    <marker date="1545766155807" expanded="true" signature="382:517" ph="{...}" />
-                    <marker date="1545766155807" expanded="true" signature="569:673" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/DocumentsService.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-                  <folding>
-                    <marker date="1545842954407" expanded="false" signature="6:243" ph="..." />
-                    <marker date="1545842954407" expanded="true" signature="286:1716" ph="{...}" />
-                    <marker date="1545842954407" expanded="true" signature="342:1714" ph="{...}" />
-                    <marker date="1545842954407" expanded="true" signature="430:480" ph="{...}" />
-                    <marker date="1545842954407" expanded="true" signature="548:1708" ph="{...}" />
-                    <marker date="1545842954407" expanded="true" signature="724:1662" ph="{...}" />
-                    <marker date="1545842954407" expanded="true" signature="807:1181" ph="{...}" />
-                    <marker date="1545842954407" expanded="true" signature="865:1163" ph="{...}" />
-                    <marker date="1545842954407" expanded="true" signature="1295:1583" ph="{...}" />
-                    <marker date="1545842954407" expanded="true" signature="1433:1565" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Participant.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="392">
-                  <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-                  <folding>
-                    <marker date="1545959580889" expanded="true" signature="71:1400" ph="{...}" />
-                    <marker date="1545959580889" expanded="true" signature="102:1398" ph="{...}" />
-                    <marker date="1545959580889" expanded="true" signature="215:902" ph="{...}" />
-                    <marker date="1545959580889" expanded="true" signature="947:1000" ph="{...}" />
-                    <marker date="1545959580889" expanded="true" signature="1030:1063" ph="{...}" />
-                    <marker date="1545959580889" expanded="true" signature="1343:1392" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Common/Honorific.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-                  <folding>
-                    <marker date="1545841506395" expanded="true" signature="42:133" ph="{...}" />
-                    <marker date="1545841506395" expanded="true" signature="70:131" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Document.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-                  <folding>
-                    <marker date="1545771738611" expanded="false" signature="6:47" ph="..." />
-                    <marker date="1545771738611" expanded="true" signature="91:553" ph="{...}" />
-                    <marker date="1545771738611" expanded="true" signature="119:551" ph="{...}" />
-                    <marker date="1545771738611" expanded="true" signature="151:223" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/SearchResult.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-                  <folding>
-                    <marker date="1544572227892" expanded="true" signature="82:377" ph="{...}" />
-                    <marker date="1544572227892" expanded="true" signature="114:375" ph="{...}" />
-                    <marker date="1544572227892" expanded="true" signature="150:261" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/Article.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-                  <folding>
-                    <marker date="1545771824404" expanded="false" signature="6:73" ph="..." />
-                    <marker date="1545771824404" expanded="true" signature="122:544" ph="{...}" />
-                    <marker date="1545771824404" expanded="true" signature="149:542" ph="{...}" />
-                    <marker date="1545771824404" expanded="true" signature="180:252" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PdfTextExtractor/TimFerrissPodcastIndexer.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="402">
-                  <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-                  <folding>
-                    <marker date="1545959347241" expanded="true" signature="6:87" ph="..." />
-                    <marker date="1545959347241" expanded="true" signature="115:4121" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="178:4119" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="388:510" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="571:694" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="759:1641" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="1253:1593" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="1698:1905" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="1978:2110" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="2177:2334" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="2416:3017" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="2643:2869" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="2750:2855" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="3078:3464" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="3543:4113" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="3674:4076" ph="{...}" />
-                    <marker date="1545959347241" expanded="true" signature="3748:4062" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>auth</find>
-      <find>surpr</find>
-      <find>values</find>
-      <find>decimal</find>
-      <find>us-cen</find>
-      <find>&quot;elastic</find>
-      <find>Index</find>
-      <find>default</find>
-      <find>new</find>
-      <find>users\</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/DocumentsService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/FileHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/PdfTextExtractor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Participant.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/DocumentIndexerType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/DocumentIndexerFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/ITextExtractorFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ElasticSearchClient/obj/Debug/netcoreapp2.1/ElasticSearchClient.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Document.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ElasticSearchClient/IClient.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2D6368BE-93F6-4ED8-850F-CCE912986A0E/2e/840ecae8/IndexName.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2D6368BE-93F6-4ED8-850F-CCE912986A0E/08/65e350ca/ConnectionSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Common/IndexName.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/Highlight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/SearchResult.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/Article.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/IDocumentsService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/DocumentsController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/obj/Debug/netcoreapp2.1/ExploreElasticSearch.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/ITextExtractorFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/TextFileTextExtractor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/IDocumentIndexer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/DocumentIndexerType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/PdfTextExtractor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/RhondaPatrickPodcastIndexer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PdfTextExtractor/TextExtractorFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/DocumentIndexerFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/FileHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ElasticSearchClient/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/ITextExtractor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/FileType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/TimFerrissPodcastIndexer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Document.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Common/IndexName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Common/Honorific.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PdfTextExtractor/FileTypeResolver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/FileType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/ITextExtractor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/TextFileTextExtractor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Participant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ElasticSearchClient/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/03B18B0C-CDA1-4D73-9F96-EFF40550F948/292/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ElasticSearchClient/IClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B18C992C-66C3-4F1F-B8D8-736F44A23A6E/7/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/SearchResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/SearchDocumentsResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/TimFerrissPodcastIndexer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/RhondaPatrickPodcastIndexer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PdfTextExtractor/IDocumentIndexer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Common/Honorific.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/Article.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/Highlight.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -510,111 +114,41 @@
         <option value="$PROJECT_DIR$/PdfTextExtractor/IDocumentIndexer.cs" />
         <option value="$PROJECT_DIR$/PdfTextExtractor/FileHelper.cs" />
         <option value="$PROJECT_DIR$/PdfTextExtractor/TextFileTextExtractor.cs" />
-        <option value="$PROJECT_DIR$/ElasticSearchClient/Client.cs" />
         <option value="$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Document.cs" />
         <option value="$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/Article.cs" />
         <option value="$PROJECT_DIR$/PdfTextExtractor/Honorific.cs" />
         <option value="$PROJECT_DIR$/PdfTextExtractor/RhondaPatrickPodcastIndexer.cs" />
         <option value="$PROJECT_DIR$/ExploreElasticSearch/Documents/DocumentsService.cs" />
-        <option value="$PROJECT_DIR$/PdfTextExtractor/Program.cs" />
         <option value="$PROJECT_DIR$/PdfTextExtractor/TimFerrissPodcastIndexer.cs" />
         <option value="$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Participant.cs" />
+        <option value="$PROJECT_DIR$/PdfTextExtractor/appsettingsDevelopment.json" />
+        <option value="$PROJECT_DIR$/PdfTextExtractor/appsettings.json" />
+        <option value="$PROJECT_DIR$/ElasticSearchClient/Client.cs" />
+        <option value="$PROJECT_DIR$/PdfTextExtractor/Program.cs" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1416" />
-  </component>
+  <component name="ProjectId" id="1fC9vAHTDxApszldyF4S2zel8Bm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ExploreElasticSearch" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ExploreElasticSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ElasticSearchClient" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ExploreElasticSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ExploreElasticSearch" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ExploreElasticSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ExploreElasticSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Documents" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ExploreElasticSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ExploreElasticSearch.Core" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ExploreElasticSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ExploreElasticSearch.Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Common" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ExploreElasticSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ExploreElasticSearch.Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ExploreElasticSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="PdfTextExtractor" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../elasticsearch-net-example/src/NuSearch.sln" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected=".NET Project.Api">
+  <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Api" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/ExploreElasticSearch/bin/Debug/netcoreapp2.1/ExploreElasticSearch.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -633,7 +167,7 @@
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
       <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
-      <browser start="true" url="https://localhost:5001" />
+      <browser url="https://localhost:5001" start="true" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -686,56 +220,123 @@
       <workItem from="1544570739275" duration="8275000" />
       <workItem from="1545177132261" duration="1905000" />
       <workItem from="1545325920942" duration="23561000" />
+      <workItem from="1595711443254" duration="3971000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74361000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09340223" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32839313" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4875195" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.20124805" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="REST Client" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32967034" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.32683307" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="477" height="466" key="DebuggerActiveHint" timestamp="1595714902158">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="477" height="466" key="DebuggerActiveHint/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595714902158" />
+    <state width="1237" height="310" key="GridCell.Tab.0.bottom" timestamp="1595715072929">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072929" />
+    <state width="1237" height="310" key="GridCell.Tab.0.center" timestamp="1595715072928">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072928" />
+    <state width="1237" height="310" key="GridCell.Tab.0.left" timestamp="1595715072928">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072928" />
+    <state width="1237" height="310" key="GridCell.Tab.0.right" timestamp="1595715072929">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072929" />
+    <state width="1237" height="310" key="GridCell.Tab.1.bottom" timestamp="1595715072929">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072929" />
+    <state width="1237" height="310" key="GridCell.Tab.1.center" timestamp="1595715072929">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.1.center/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072929" />
+    <state width="1237" height="310" key="GridCell.Tab.1.left" timestamp="1595715072929">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.1.left/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072929" />
+    <state width="1237" height="310" key="GridCell.Tab.1.right" timestamp="1595715072929">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.1.right/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072929" />
+    <state width="1237" height="310" key="GridCell.Tab.2.bottom" timestamp="1595715072930">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.2.bottom/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072930" />
+    <state width="1237" height="310" key="GridCell.Tab.2.center" timestamp="1595715072930">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.2.center/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072930" />
+    <state width="1237" height="310" key="GridCell.Tab.2.left" timestamp="1595715072929">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.2.left/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072929" />
+    <state width="1237" height="310" key="GridCell.Tab.2.right" timestamp="1595715072930">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.2.right/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072930" />
+    <state width="1237" height="310" key="GridCell.Tab.3.bottom" timestamp="1595715072930">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.3.bottom/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072930" />
+    <state width="1237" height="310" key="GridCell.Tab.3.center" timestamp="1595715072930">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.3.center/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072930" />
+    <state width="1237" height="310" key="GridCell.Tab.3.left" timestamp="1595715072930">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.3.left/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072930" />
+    <state width="1237" height="310" key="GridCell.Tab.3.right" timestamp="1595715072930">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.3.right/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072930" />
+    <state width="1237" height="310" key="GridCell.Tab.4.bottom" timestamp="1595715072931">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.4.bottom/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072931" />
+    <state width="1237" height="310" key="GridCell.Tab.4.center" timestamp="1595715072931">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.4.center/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072931" />
+    <state width="1237" height="310" key="GridCell.Tab.4.left" timestamp="1595715072931">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.4.left/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072931" />
+    <state width="1237" height="310" key="GridCell.Tab.4.right" timestamp="1595715072931">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1237" height="310" key="GridCell.Tab.4.right/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595715072931" />
+    <state x="-3607" y="433" key="Rider.ProjectTemplateDialog.Size" timestamp="1595713770067">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-3607" y="433" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595713770067" />
+    <state x="-3533" y="432" width="667" height="536" key="find.popup" timestamp="1595713347643">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-3533" y="432" width="667" height="536" key="find.popup/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595713347643" />
+    <state x="-3537" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1595712016730">
+      <screen x="-3840" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-3537" y="315" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-3840.0.2560.1400@-3840.0.2560.1400" timestamp="1595712016730" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -744,6 +345,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/PdfTextExtractor/Program.cs</url>
+          <line>27</line>
+          <properties documentPath="$PROJECT_DIR$/PdfTextExtractor/Program.cs" initialLine="29">
+            <startOffsets>
+              <option value="1032" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1075" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -794,436 +408,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ElasticSearchClient/Configuration.cs" />
-    <entry file="file://$PROJECT_DIR$/ElasticSearchClient/ElasticSearchClient.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2D6368BE-93F6-4ED8-850F-CCE912986A0E/08/65e350ca/ConnectionSettings.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/DocumentsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/IDocumentsService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Properties/launchSettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/ElasticSearchClient/IClient.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2D6368BE-93F6-4ED8-850F-CCE912986A0E/2e/840ecae8/IndexName.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Common/IndexName.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <marker date="1544576522399" expanded="true" signature="79:170" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/SearchDocumentsResponse.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <marker date="1544572235076" expanded="false" signature="6:85" ph="..." />
-            <marker date="1544572235076" expanded="true" signature="177:367" ph="{...}" />
-            <marker date="1544572235076" expanded="true" signature="224:298" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/Highlight.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <marker date="1544572201749" expanded="true" signature="76:132" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/FileType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <marker date="1545761380409" expanded="true" signature="26:112" ph="{...}" />
-            <marker date="1545761380409" expanded="true" signature="53:110" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/ITextExtractor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <marker date="1545762252833" expanded="true" signature="26:167" ph="{...}" />
-            <marker date="1545762252833" expanded="true" signature="64:165" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/PdfTextExtractor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-          <folding>
-            <marker date="1545762361153" expanded="true" signature="57:743" ph="{...}" />
-            <marker date="1545762361153" expanded="true" signature="110:741" ph="{...}" />
-            <marker date="1545762361153" expanded="true" signature="178:357" ph="{...}" />
-            <marker date="1545762361153" expanded="true" signature="244:347" ph="{...}" />
-            <marker date="1545762361153" expanded="true" signature="431:550" ph="{...}" />
-            <marker date="1545762361153" expanded="true" signature="606:671" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/ITextExtractorFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <marker date="1545763817891" expanded="true" signature="26:143" ph="{...}" />
-            <marker date="1545763817891" expanded="true" signature="71:141" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
-          <folding>
-            <marker date="1543461207504" expanded="false" signature="6:467" ph="..." />
-            <marker date="1543461207504" expanded="true" signature="499:1694" ph="{...}" />
-            <marker date="1543461207504" expanded="true" signature="526:1692" ph="{...}" />
-            <marker date="1543461207504" expanded="true" signature="585:648" ph="{...}" />
-            <marker date="1543461207504" expanded="true" signature="871:1138" ph="{...}" />
-            <marker date="1543461207504" expanded="true" signature="1326:1686" ph="{...}" />
-            <marker date="1543461207504" expanded="true" signature="1373:1450" ph="{...}" />
-            <marker date="1543461207504" expanded="true" signature="1467:1526" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/FileTypeResolver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <marker date="1545761419226" expanded="true" signature="44:521" ph="{...}" />
-            <marker date="1545761419226" expanded="true" signature="87:519" ph="{...}" />
-            <marker date="1545761419226" expanded="true" signature="153:513" ph="{...}" />
-            <marker date="1545761419226" expanded="true" signature="262:502" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/DocumentIndexerType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <marker date="1545763765520" expanded="true" signature="26:121" ph="{...}" />
-            <marker date="1545763765520" expanded="true" signature="64:119" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/TextExtractorFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <marker date="1545764360593" expanded="true" signature="6:47" ph="..." />
-            <marker date="1545764360593" expanded="true" signature="75:775" ph="{...}" />
-            <marker date="1545764360593" expanded="true" signature="139:773" ph="{...}" />
-            <marker date="1545764360593" expanded="true" signature="265:385" ph="{...}" />
-            <marker date="1545764360593" expanded="true" signature="459:767" ph="{...}" />
-            <marker date="1545764360593" expanded="true" signature="615:685" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/IDocumentIndexer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <marker date="1545765489006" expanded="true" signature="67:175" ph="{...}" />
-            <marker date="1545765489006" expanded="true" signature="107:173" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/DocumentIndexerFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <marker date="1545765530871" expanded="false" signature="6:64" ph="..." />
-            <marker date="1545765530871" expanded="true" signature="92:1018" ph="{...}" />
-            <marker date="1545765530871" expanded="true" signature="134:1016" ph="{...}" />
-            <marker date="1545765530871" expanded="true" signature="289:513" ph="{...}" />
-            <marker date="1545765530871" expanded="true" signature="591:1010" ph="{...}" />
-            <marker date="1545765530871" expanded="true" signature="753:942" ph="{...}" />
-            <marker date="1545765530871" expanded="true" signature="856:928" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/TextFileTextExtractor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <marker date="1545767386327" expanded="true" signature="45:341" ph="{...}" />
-            <marker date="1545767386327" expanded="true" signature="103:339" ph="{...}" />
-            <marker date="1545767386327" expanded="true" signature="164:268" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/FileHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <marker date="1545766155807" expanded="false" signature="6:50" ph="..." />
-            <marker date="1545766155807" expanded="true" signature="78:681" ph="{...}" />
-            <marker date="1545766155807" expanded="true" signature="108:679" ph="{...}" />
-            <marker date="1545766155807" expanded="true" signature="184:298" ph="{...}" />
-            <marker date="1545766155807" expanded="true" signature="382:517" ph="{...}" />
-            <marker date="1545766155807" expanded="true" signature="569:673" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Document.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <marker date="1545771738611" expanded="false" signature="6:47" ph="..." />
-            <marker date="1545771738611" expanded="true" signature="91:553" ph="{...}" />
-            <marker date="1545771738611" expanded="true" signature="119:551" ph="{...}" />
-            <marker date="1545771738611" expanded="true" signature="151:223" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/Article.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1545771824404" expanded="false" signature="6:73" ph="..." />
-            <marker date="1545771824404" expanded="true" signature="122:544" ph="{...}" />
-            <marker date="1545771824404" expanded="true" signature="149:542" ph="{...}" />
-            <marker date="1545771824404" expanded="true" signature="180:252" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/Models/SearchResult.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <marker date="1544572227892" expanded="true" signature="82:377" ph="{...}" />
-            <marker date="1544572227892" expanded="true" signature="114:375" ph="{...}" />
-            <marker date="1544572227892" expanded="true" signature="150:261" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch/Documents/DocumentsService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-          <folding>
-            <marker date="1545842954407" expanded="false" signature="6:243" ph="..." />
-            <marker date="1545842954407" expanded="true" signature="286:1716" ph="{...}" />
-            <marker date="1545842954407" expanded="true" signature="342:1714" ph="{...}" />
-            <marker date="1545842954407" expanded="true" signature="430:480" ph="{...}" />
-            <marker date="1545842954407" expanded="true" signature="548:1708" ph="{...}" />
-            <marker date="1545842954407" expanded="true" signature="724:1662" ph="{...}" />
-            <marker date="1545842954407" expanded="true" signature="807:1181" ph="{...}" />
-            <marker date="1545842954407" expanded="true" signature="865:1163" ph="{...}" />
-            <marker date="1545842954407" expanded="true" signature="1295:1583" ph="{...}" />
-            <marker date="1545842954407" expanded="true" signature="1433:1565" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Common/Honorific.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <marker date="1545841506395" expanded="true" signature="42:133" ph="{...}" />
-            <marker date="1545841506395" expanded="true" signature="70:131" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElasticSearchClient/Client.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <marker date="1545770819461" expanded="false" signature="6:65" ph="..." />
-            <marker date="1545770819461" expanded="true" signature="96:2302" ph="{...}" />
-            <marker date="1545770819461" expanded="true" signature="132:2300" ph="{...}" />
-            <marker date="1545770819461" expanded="true" signature="219:631" ph="{...}" />
-            <marker date="1545770819461" expanded="true" signature="710:1877" ph="{...}" />
-            <marker date="1545770819461" expanded="true" signature="1946:2117" ph="{...}" />
-            <marker date="1545770819461" expanded="true" signature="2152:2294" ph="{...}" />
-            <marker date="1545770819461" expanded="true" signature="2305:3060" ph="/* var searchResponse = _elasticClient.Search&lt;Document&gt;(s =&gt; s ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-          <folding>
-            <marker date="1545929687682" expanded="false" signature="6:99" ph="..." />
-            <marker date="1545929687682" expanded="true" signature="128:3111" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="148:3109" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="194:639" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="205:415" ph="/* const string timFerrissDirectoryPath = ... */" />
-            <marker date="1545929687682" expanded="true" signature="724:1225" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="1005:1215" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="1360:1709" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="1486:1699" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="1776:2358" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="2135:2348" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="2431:2760" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="2619:2750" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="2829:2953" ph="{...}" />
-            <marker date="1545929687682" expanded="true" signature="2996:3103" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreElasticSearch.Core/Models/Participant.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding>
-            <marker date="1545959580889" expanded="true" signature="71:1400" ph="{...}" />
-            <marker date="1545959580889" expanded="true" signature="102:1398" ph="{...}" />
-            <marker date="1545959580889" expanded="true" signature="215:902" ph="{...}" />
-            <marker date="1545959580889" expanded="true" signature="947:1000" ph="{...}" />
-            <marker date="1545959580889" expanded="true" signature="1030:1063" ph="{...}" />
-            <marker date="1545959580889" expanded="true" signature="1343:1392" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/TimFerrissPodcastIndexer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <marker date="1545959347241" expanded="true" signature="6:87" ph="..." />
-            <marker date="1545959347241" expanded="true" signature="115:4121" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="178:4119" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="388:510" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="571:694" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="759:1641" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="1253:1593" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="1698:1905" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="1978:2110" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="2177:2334" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="2416:3017" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="2643:2869" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="2750:2855" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="3078:3464" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="3543:4113" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="3674:4076" ph="{...}" />
-            <marker date="1545959347241" expanded="true" signature="3748:4062" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfTextExtractor/RhondaPatrickPodcastIndexer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-          <folding>
-            <marker date="1545842408103" expanded="true" signature="6:121" ph="..." />
-            <marker date="1545842408103" expanded="true" signature="149:4837" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="215:4835" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="428:550" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="611:734" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="799:1825" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="1213:1478" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="1875:2246" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="2307:3698" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="2933:3368" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="2991:3184" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="3205:3354" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="3385:3655" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="3766:4127" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="4198:4565" ph="{...}" />
-            <marker date="1545842408103" expanded="true" signature="4622:4829" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

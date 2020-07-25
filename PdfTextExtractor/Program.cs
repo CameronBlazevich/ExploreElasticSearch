@@ -2,25 +2,32 @@
 using System.Linq;
 using ElasticSearchClient;
 using ExploreElasticSearch.Core.Models;
+using Microsoft.Extensions.Configuration;
 
 
 namespace PdfTextExtractor
 {
     class Program
     {
+        private static IConfiguration _configuration;
         static void Main(string[] args)
         {
-//            const string timFerrissDirectoryPath =
-//                @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\TimFerriss";
-//
-//            IndexDocuments(timFerrissDirectoryPath);
+            var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+            _configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .AddJsonFile($"appsettings.{environmentName}.json", true)
+                .AddEnvironmentVariables()
+                // .AddCommandLine(args) //install Microsoft.Extensions.Configuration.CommandLine
+                .Build();
 
+            // const string dirPath =
+            //     @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\";
             const string dirPath =
-                @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\";
-
+                @"C:\Users\Cameron\Documents\GitHub\exploratory\ExploreElasticSearch\Transcripts";
+            
             IndexDocumentsMultiLevelDirectory(dirPath);
-
-            Console.ReadLine();
+            //
+            // Console.ReadLine();
         }
 
         private static void IndexDocumentsMultiLevelDirectory(string directoryPath)
@@ -77,13 +84,19 @@ namespace PdfTextExtractor
 
         private static void IndexDocument(Document documentToIndex)
         {
-            var elasticClient = new Client();
+            var elasticClient = new Client(
+                _configuration["ElasticSearch:Url"],
+                _configuration["ElasticSearch:Username"],
+                _configuration["ElasticSearch:Password"]);
             elasticClient.IndexDocument(documentToIndex);
         }
 
         private static void DeleteIndex()
         {
-            var elasticClient = new Client();
+            var elasticClient = new Client(
+                _configuration["ElasticSearch:Url"],
+                _configuration["ElasticSearch:Username"],
+                _configuration["ElasticSearch:Password"]);
             elasticClient.DeleteIndex();
         }
     }

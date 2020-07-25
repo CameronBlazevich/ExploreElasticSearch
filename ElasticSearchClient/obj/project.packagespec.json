@@ -1,22 +1,23 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ElasticSearchClient\\ElasticSearchClient.csproj",
+    "projectUniqueName": "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ElasticSearchClient\\ElasticSearchClient.csproj",
     "projectName": "ElasticSearchClient",
-    "projectPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ElasticSearchClient\\ElasticSearchClient.csproj",
-    "outputPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ElasticSearchClient\\obj\\",
+    "projectPath": "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ElasticSearchClient\\ElasticSearchClient.csproj",
+    "outputPath": "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ElasticSearchClient\\obj\\",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"
     ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
     "frameworks": {
       "netcoreapp2.1": {
         "projectReferences": {
-          "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ExploreElasticSearch.Core\\ExploreElasticSearch.Core.csproj": {
-            "projectPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ExploreElasticSearch.Core\\ExploreElasticSearch.Core.csproj"
+          "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ExploreElasticSearch.Core\\ExploreElasticSearch.Core.csproj": {
+            "projectPath": "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ExploreElasticSearch.Core\\ExploreElasticSearch.Core.csproj"
           }
         }
       }
@@ -42,10 +43,16 @@
         }
       },
       "imports": [
-        "net461"
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
       ],
       "assetTargetFallback": true,
-      "warn": true
+      "warn": true,
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
     }
   }
 }

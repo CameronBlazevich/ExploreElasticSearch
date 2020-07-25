@@ -8,11 +8,11 @@ namespace ElasticSearchClient
     {
         private readonly IElasticClient _elasticClient;
 
-        public Client()
+        public Client(string url, string username, string password)
         {
-            var node = new Uri("https://cefadbfa54fa43ec9b550cdfafa67337.us-east-1.aws.found.io:9243");
+            var node = new Uri(url);
             var settings = new ConnectionSettings(node)
-                .BasicAuthentication("elastic", "khuRBZ0VqguvdK9YwhMGzcxT")
+                .BasicAuthentication(username, password)
                 .DefaultIndex(ExploreElasticSearch.Core.Common.IndexNames.PodcastsAndInterviews);
             _elasticClient = new ElasticClient(settings);
         }

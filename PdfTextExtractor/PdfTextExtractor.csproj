@@ -9,6 +9,12 @@
       <PackageReference Include="BitMiracle.Docotic.Pdf">
         <Version>5.6.9220-dev</Version>
       </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables">
+        <Version>5.0.0-preview.7.20364.11</Version>
+      </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json">
+        <Version>5.0.0-preview.7.20364.11</Version>
+      </PackageReference>
     </ItemGroup>
 
     <ItemGroup>
@@ -24,6 +30,15 @@
       <ProjectReference Include="..\ElasticSearchClient\ElasticSearchClient.csproj" />
       <ProjectReference Include="..\ExploreElasticSearch.Core\ExploreElasticSearch.Core.csproj" />
       <ProjectReference Include="..\ExploreElasticSearch\ExploreElasticSearch.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="appsettings.Development.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>

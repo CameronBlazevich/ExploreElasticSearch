@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\cblazevich\.Rider2018.2\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\cblazevich\.Rider2018.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\cblazevich\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\cblazevich\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_ExploreElasticSearch.-1111666660.00" t="ExcludeRecursive" />
-    <e p="C:\Users\cblazevich\RiderProjects\ExploreElasticSearch" t="IncludeFlat">
+    <e p="C:\Users\Cameron\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Cameron\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ExploreElasticSearch.1495900298.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Cameron\Documents\GitHub\exploratory\ExploreElasticSearch" t="IncludeFlat">
       <e p="ElasticSearchClient" t="IncludeRecursive">
         <e p="Bin" t="ExcludeRecursive" />
         <e p="Client.cs" t="Include" />
@@ -39,6 +37,7 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp2.1" t="Include">
               <e p="ExploreElasticSearch.AssemblyInfo.cs" t="Include" />
+              <e p="ExploreElasticSearch.RazorAssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -71,6 +70,8 @@
       <e p="ExploreElasticSearch.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="PdfTextExtractor" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
         <e p="Bin" t="ExcludeRecursive" />
         <e p="DocumentIndexerFactory.cs" t="Include" />
         <e p="DocumentIndexerType.cs" t="Include" />

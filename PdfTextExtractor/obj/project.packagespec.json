@@ -1,28 +1,29 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\PdfTextExtractor\\PdfTextExtractor.csproj",
+    "projectUniqueName": "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\PdfTextExtractor\\PdfTextExtractor.csproj",
     "projectName": "PdfTextExtractor",
-    "projectPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\PdfTextExtractor\\PdfTextExtractor.csproj",
-    "outputPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\PdfTextExtractor\\obj\\",
+    "projectPath": "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\PdfTextExtractor\\PdfTextExtractor.csproj",
+    "outputPath": "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\PdfTextExtractor\\obj\\",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"
     ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
     "frameworks": {
       "netcoreapp2.1": {
         "projectReferences": {
-          "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ElasticSearchClient\\ElasticSearchClient.csproj": {
-            "projectPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ElasticSearchClient\\ElasticSearchClient.csproj"
+          "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ElasticSearchClient\\ElasticSearchClient.csproj": {
+            "projectPath": "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ElasticSearchClient\\ElasticSearchClient.csproj"
           },
-          "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ExploreElasticSearch.Core\\ExploreElasticSearch.Core.csproj": {
-            "projectPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ExploreElasticSearch.Core\\ExploreElasticSearch.Core.csproj"
+          "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ExploreElasticSearch.Core\\ExploreElasticSearch.Core.csproj": {
+            "projectPath": "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ExploreElasticSearch.Core\\ExploreElasticSearch.Core.csproj"
           },
-          "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ExploreElasticSearch\\ExploreElasticSearch.csproj": {
-            "projectPath": "C:\\Users\\cblazevich\\RiderProjects\\ExploreElasticSearch\\ExploreElasticSearch\\ExploreElasticSearch.csproj"
+          "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ExploreElasticSearch\\ExploreElasticSearch.csproj": {
+            "projectPath": "C:\\Users\\Cameron\\Documents\\GitHub\\exploratory\\ExploreElasticSearch\\ExploreElasticSearch\\ExploreElasticSearch.csproj"
           }
         }
       }
@@ -40,6 +41,14 @@
           "target": "Package",
           "version": "[5.6.9220-dev, )"
         },
+        "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+          "target": "Package",
+          "version": "[5.0.0-preview.7.20364.11, )"
+        },
+        "Microsoft.Extensions.Configuration.Json": {
+          "target": "Package",
+          "version": "[5.0.0-preview.7.20364.11, )"
+        },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",
@@ -48,10 +57,16 @@
         }
       },
       "imports": [
-        "net461"
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
       ],
       "assetTargetFallback": true,
-      "warn": true
+      "warn": true,
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
     }
   }
 }
