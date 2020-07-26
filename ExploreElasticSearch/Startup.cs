@@ -30,7 +30,13 @@ namespace ExploreElasticSearch
             services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddSingleton<IClient, Client>();
+            var elasticSearchConfig = Configuration.GetSection("ElasticSearch");
+            services.AddSingleton<IClient>(x =>
+                new Client(new ClientConstructorArgs(
+                    Configuration["ElasticSearch:Url"],
+                    Configuration["ElasticSearch:Username"],
+                    Configuration["ElasticSearch:Password"])));
+            // services.AddSingleton<IClient, Client>();
             services.AddScoped<IDocumentsService, DocumentsService>();
         }
 

@@ -8,11 +8,11 @@ namespace ElasticSearchClient
     {
         private readonly IElasticClient _elasticClient;
 
-        public Client(string url, string username, string password)
+        public Client(ClientConstructorArgs constructorArgs)
         {
-            var node = new Uri(url);
+            var node = new Uri(constructorArgs.Url);
             var settings = new ConnectionSettings(node)
-                .BasicAuthentication(username, password)
+                .BasicAuthentication(constructorArgs.Username, constructorArgs.Password)
                 .DefaultIndex(ExploreElasticSearch.Core.Common.IndexNames.PodcastsAndInterviews);
             _elasticClient = new ElasticClient(settings);
         }
@@ -30,20 +30,21 @@ namespace ElasticSearchClient
                         .Query(searchPhrase)
                         
                     )
-                ) 
+                )
                 .Highlight(h => h
                     .PreTags("<span>")
                     .PostTags("</span>")
-                    .Fields(fs =>
-                        fs.Field(f => f.Contents).HighlightQuery(hq =>
-                                hq.Match(mp => mp
+                    .Fields(fs => fs
+                            .Field(f => f.Contents)
+                            .HighlightQuery(hq => hq
+                                .Match(mp => mp
                                     .Field(f => f.Contents)
                                     .Query(searchPhrase)
-                                .Fuzziness(Fuzziness.Ratio(.2))
+                                    // .Fuzziness(Fuzziness.Ratio(.2))
                                 )
                             )
                         //    .Type(HighlighterType.Unified)
-                        )
+                    )
                     .FragmentSize(1500)
                     .Order(HighlighterOrder.Score)
                 )
@@ -59,7 +60,7 @@ namespace ElasticSearchClient
 
         public void DeleteIndex()
         {
-            var response = _elasticClient.DeleteIndex(ExploreElasticSearch.Core.Common.IndexNames.PodcastsAndInterviews);
+            // var response = _elasticClient.DeleteIndex(ExploreElasticSearch.Core.Common.IndexNames.PodcastsAndInterviews);
         }
     }
 }

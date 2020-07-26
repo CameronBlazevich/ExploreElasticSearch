@@ -10,6 +10,7 @@ namespace PdfTextExtractor
     class Program
     {
         private static IConfiguration _configuration;
+
         static void Main(string[] args)
         {
             var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
@@ -24,7 +25,7 @@ namespace PdfTextExtractor
             //     @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\";
             const string dirPath =
                 @"C:\Users\Cameron\Documents\GitHub\exploratory\ExploreElasticSearch\Transcripts";
-            
+
             IndexDocumentsMultiLevelDirectory(dirPath);
             //
             // Console.ReadLine();
@@ -85,18 +86,20 @@ namespace PdfTextExtractor
         private static void IndexDocument(Document documentToIndex)
         {
             var elasticClient = new Client(
-                _configuration["ElasticSearch:Url"],
-                _configuration["ElasticSearch:Username"],
-                _configuration["ElasticSearch:Password"]);
+                new ClientConstructorArgs(
+                    _configuration["ElasticSearch:Url"],
+                    _configuration["ElasticSearch:Username"],
+                    _configuration["ElasticSearch:Password"]));
             elasticClient.IndexDocument(documentToIndex);
         }
 
         private static void DeleteIndex()
         {
             var elasticClient = new Client(
-                _configuration["ElasticSearch:Url"],
-                _configuration["ElasticSearch:Username"],
-                _configuration["ElasticSearch:Password"]);
+                new ClientConstructorArgs(
+                    _configuration["ElasticSearch:Url"],
+                    _configuration["ElasticSearch:Username"],
+                    _configuration["ElasticSearch:Password"]));
             elasticClient.DeleteIndex();
         }
     }

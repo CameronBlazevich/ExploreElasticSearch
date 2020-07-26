@@ -39,11 +39,11 @@ namespace ExploreElasticSearch.Documents
                 };
 
 
-                var highlights = hit.Highlights.Values;
+                var highlights = hit.Highlight;
 
                 foreach (var highlight in highlights)
                 {
-                    var snippets = highlight.Highlights.ToList();
+                    var snippets = highlight.Value.ToList();
                     foreach (var snippet in snippets)
                     {
                         searchResult.Highlights.Add(new Highlight {Snippet = snippet});

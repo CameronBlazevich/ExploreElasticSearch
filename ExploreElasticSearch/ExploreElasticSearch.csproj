@@ -11,7 +11,7 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.App" />
         <PackageReference Include="NEST">
-          <Version>6.4.0</Version>
+          <Version>7.8.1</Version>
         </PackageReference>
     </ItemGroup>
 

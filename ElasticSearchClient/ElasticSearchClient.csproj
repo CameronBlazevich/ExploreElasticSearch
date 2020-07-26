@@ -11,13 +11,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="NEST">
-        <Version>6.4.0</Version>
-      </PackageReference>
+      <ProjectReference Include="..\ExploreElasticSearch.Core\ExploreElasticSearch.Core.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ExploreElasticSearch.Core\ExploreElasticSearch.Core.csproj" />
+      <PackageReference Include="NEST">
+        <Version>7.8.1</Version>
+      </PackageReference>
     </ItemGroup>
 
 </Project>
