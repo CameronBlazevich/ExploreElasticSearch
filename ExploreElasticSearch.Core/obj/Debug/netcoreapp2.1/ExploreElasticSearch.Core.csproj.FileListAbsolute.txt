@@ -1,9 +1,0 @@
-C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ExploreElasticSearch.Core\bin\Debug\netcoreapp2.1\ExploreElasticSearch.Core.deps.json
-C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ExploreElasticSearch.Core\bin\Debug\netcoreapp2.1\ExploreElasticSearch.Core.dll
-C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ExploreElasticSearch.Core\bin\Debug\netcoreapp2.1\ExploreElasticSearch.Core.pdb
-C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ExploreElasticSearch.Core\obj\Debug\netcoreapp2.1\ExploreElasticSearch.Core.csprojAssemblyReference.cache
-C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ExploreElasticSearch.Core\obj\Debug\netcoreapp2.1\ExploreElasticSearch.Core.csproj.CoreCompileInputs.cache
-C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ExploreElasticSearch.Core\obj\Debug\netcoreapp2.1\ExploreElasticSearch.Core.AssemblyInfoInputs.cache
-C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ExploreElasticSearch.Core\obj\Debug\netcoreapp2.1\ExploreElasticSearch.Core.AssemblyInfo.cs
-C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ExploreElasticSearch.Core\obj\Debug\netcoreapp2.1\ExploreElasticSearch.Core.dll
-C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\ExploreElasticSearch.Core\obj\Debug\netcoreapp2.1\ExploreElasticSearch.Core.pdb
