@@ -27,11 +27,11 @@ namespace ExploreElasticSearch.Core.Models
             
         }
 
-        private string FirstName { get; set; }
-        private string LastName { get; set; }
-        private string Honorific { get; set; }
-        private string Qualification { get; set; }
-        public string FullName { get; set; }
+        public string FirstName { get; }
+        public string LastName { get; }
+        public string Honorific { get; }
+        public string Qualification { get; }
+        public string FullName { get; }
 
         public override string ToString()
         {

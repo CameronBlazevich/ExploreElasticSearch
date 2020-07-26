@@ -27,17 +27,21 @@ namespace PdfTextExtractor.Indexers
 
             var fileContents = GetFileContents(filePath);
 
+            var participants = GetParticipants(fileContents);
+            foreach (var speaker in participants)
+            {
+                fileContents = fileContents.Replace($"{speaker.FullName}:", $"</br></br><strong>{speaker.FullName}:</strong>", StringComparison.OrdinalIgnoreCase);
+            }
             var documentToIndex = new Document
             {
-                Contents = fileContents, Author = "Ben Pakulski",
+                Contents = fileContents, 
+                Author = "Ben Pakulski",
                 PostDate = DateTime.Now,
                 Title = title,
                 Id = $"pakulski-{podcastNumber}",
-                MetaTitle = "Muscle Intelligence"
+                MetaTitle = "Muscle Intelligence",
+                Participants = participants,
             };
-
-            var participants = GetParticipants(fileContents);
-            documentToIndex.Participants = participants;
 
             return documentToIndex;
         }

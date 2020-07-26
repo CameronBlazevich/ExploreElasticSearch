@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Globalization;
 using ExploreElasticSearch.Core.Common;
 using ExploreElasticSearch.Core.Models;
@@ -33,6 +34,18 @@ namespace PdfTextExtractor
             //var sanitizedFileContents = SanitizeFileContents(fileContents);
             var title = GetTitle(filePath);
 
+            var participants = new List<Participant>();
+            
+            var rhondaPatrick = new Participant(Honorific.Dr.ToString(), "Rhonda", "Patrick");
+            participants.Add(rhondaPatrick);
+            
+            var participant = GetParticipant(filePath);
+            participants.Add(participant);
+            foreach (var speaker in participants)
+            {
+                fileContents = fileContents.Replace($"{speaker.FirstName}:", $"</br></br><strong>{speaker.FirstName}:</strong>", StringComparison.OrdinalIgnoreCase);
+            }
+            
             var documentToIndex = new Document
             {
                 Contents = fileContents,
@@ -41,13 +54,8 @@ namespace PdfTextExtractor
                 Author = "Rhonda Patrick",
                 Id = $"patrick-{documentId}",
                 MetaTitle = "Found My Fitness",
+                Participants = participants
             };
-              
-            var rhondaPatrick = new Participant(Honorific.Dr.ToString(), "Rhonda", "Patrick");
-            documentToIndex.Participants.Add(rhondaPatrick);
-            
-            var participant = GetParticipant(filePath);
-            documentToIndex.Participants.Add(participant);
 
             return documentToIndex;
         }

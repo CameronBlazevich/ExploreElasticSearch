@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using ExploreElasticSearch.Core.Models;
 using Nest;
 
@@ -20,6 +22,21 @@ namespace ElasticSearchClient
 
         public ISearchResponse<Document> Search(string searchPhrase)
         {
+            var initialResponse = _elasticClient.Search<Document>(s => s
+                .From(0)
+                .Size(100)
+                .MinScore(0.5)
+                .Query(q => q
+                    .MatchPhrase(mq => mq
+                        .Field(f => f.Contents)
+                        .Query(searchPhrase)
+
+                    )
+                ));
+
+            
+            
+                
             var searchResponse = _elasticClient.Search<Document>(s => s
                 .From(0)
                 .Size(200)
@@ -28,24 +45,22 @@ namespace ElasticSearchClient
                     .MatchPhrase(mq => mq
                         .Field(f => f.Contents)
                         .Query(searchPhrase)
-                        
                     )
                 )
                 .Highlight(h => h
-                    .PreTags("<span>")
-                    .PostTags("</span>")
                     .Fields(fs => fs
                             .Field(f => f.Contents)
+                            .PreTags("<span>")
+                            .PostTags("</span>")
                             .HighlightQuery(hq => hq
                                 .Match(mp => mp
                                     .Field(f => f.Contents)
                                     .Query(searchPhrase)
-                                    // .Fuzziness(Fuzziness.Ratio(.2))
                                 )
                             )
-                        //    .Type(HighlighterType.Unified)
                     )
-                    .FragmentSize(1500)
+                    
+                    .FragmentSize(1000)
                     .Order(HighlighterOrder.Score)
                 )
             );

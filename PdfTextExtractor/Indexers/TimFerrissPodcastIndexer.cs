@@ -32,7 +32,12 @@ namespace PdfTextExtractor.Indexers
             var title = GetTitle(sanitizedFileContents);
 
             var participants = GetParticipants(filePath, title);
-
+            foreach (var participant in participants)
+            {
+                fileContents = fileContents.Replace($"{participant.FullName}:",
+                    $"</br></br><strong>{participant.FullName}:</strong>", StringComparison.OrdinalIgnoreCase);
+            }
+            
             var documentToIndex = new Document
             {
                 Contents = fileContents,
@@ -79,9 +84,9 @@ namespace PdfTextExtractor.Indexers
                     participants.Add(new Participant(guest.Trim()));
                 }
             }
-            
+
             participants.Add(new Participant(string.Empty, "Tim", "Ferriss"));
-            
+
             return participants;
         }
 
