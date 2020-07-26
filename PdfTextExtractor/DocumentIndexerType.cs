@@ -4,5 +4,6 @@ namespace PdfTextExtractor
     {
         TimFerriss,
         RhondaPatrick,
+        BenPakulski
     }
 }

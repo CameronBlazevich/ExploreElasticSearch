@@ -37,5 +37,22 @@ namespace ExploreElasticSearch.Core.Models
         {
             return FullName;
         }
+        public override bool Equals(object obj)
+        {
+            var participant1 = obj as Participant;
+
+            if (participant1 == null)
+            {
+                return false;
+            }
+
+            var honorificsMatch = Honorific == participant1.Honorific;
+            var firstNamesMatch = FirstName == participant1.FirstName;
+            var lastNamesMatch = LastName == participant1.LastName;
+            var qualificationsMatch = Qualification == participant1.Qualification;
+            var fullNamesMatch = FullName == participant1.FullName;
+
+            return honorificsMatch && firstNamesMatch && lastNamesMatch && qualificationsMatch && fullNamesMatch;
+        }
     }
 }

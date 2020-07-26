@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using ExploreElasticSearch.Core.Models;
 
-namespace PdfTextExtractor
+namespace PdfTextExtractor.Indexers
 {
     public class TimFerrissPodcastIndexer : IDocumentIndexer
     {
