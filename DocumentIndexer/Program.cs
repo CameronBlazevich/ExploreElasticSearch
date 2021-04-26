@@ -1,35 +1,34 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using ElasticSearchClient;
 using ExploreElasticSearch.Core.Models;
-using Microsoft.Extensions.Configuration;
 
 
 namespace PdfTextExtractor
 {
     class Program
     {
-        private static IConfiguration _configuration;
-
         static void Main(string[] args)
         {
-            var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-            _configuration = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json")
-                .AddJsonFile($"appsettings.{environmentName}.json", true)
-                .AddEnvironmentVariables()
-                // .AddCommandLine(args) //install Microsoft.Extensions.Configuration.CommandLine
-                .Build();
+            DeleteIndex();
+//            const string timFerrissDirectoryPath =
+//                @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\TimFerriss";
+//
+//            IndexDocuments(timFerrissDirectoryPath);
 
             // const string dirPath =
             //     @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\";
-            const string dirPath =
-                @"C:\Users\Cameron\Documents\GitHub\exploratory\ExploreElasticSearch\Transcripts";
+
+            const string dirPath = @"C:\Code\ExploreElasticSearch\Transcripts\";
 
             IndexDocumentsMultiLevelDirectory(dirPath);
-            //
-            // Console.ReadLine();
+
+            Console.ReadLine();
         }
+
+        private static List<string> FoldersToSkip = new List<string> { "TimFerriss", "RhondaPatrick"};
 
         private static void IndexDocumentsMultiLevelDirectory(string directoryPath)
         {
@@ -38,9 +37,18 @@ namespace PdfTextExtractor
             var childDirectoryPaths = fileHelper.GetChildDirectories(directoryPath);
             foreach (var childDirectoryPath in childDirectoryPaths)
             {
+                
+                //delete this
+                var dirName = new DirectoryInfo(childDirectoryPath).Name;
+                if (FoldersToSkip.Contains(dirName))
+                {
+                    continue;
+                }
+                
+                
                 var documentIndexer = documentIndexerFactory.GetDocumentIndexer(childDirectoryPath);
                 IndexDocuments(childDirectoryPath, documentIndexer, fileHelper);
-            }    
+            }
         }
 
         private static void IndexDocuments(string directoryPath, IDocumentIndexer documentIndexer,
@@ -85,21 +93,13 @@ namespace PdfTextExtractor
 
         private static void IndexDocument(Document documentToIndex)
         {
-            var elasticClient = new Client(
-                new ClientConstructorArgs(
-                    _configuration["ElasticSearch:Url"],
-                    _configuration["ElasticSearch:Username"],
-                    _configuration["ElasticSearch:Password"]));
+            var elasticClient = new Client();
             elasticClient.IndexDocument(documentToIndex);
         }
 
         private static void DeleteIndex()
         {
-            var elasticClient = new Client(
-                new ClientConstructorArgs(
-                    _configuration["ElasticSearch:Url"],
-                    _configuration["ElasticSearch:Username"],
-                    _configuration["ElasticSearch:Password"]));
+            var elasticClient = new Client();
             elasticClient.DeleteIndex();
         }
     }
