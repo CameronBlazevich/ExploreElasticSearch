@@ -18,8 +18,10 @@ namespace PdfTextExtractor
 //
 //            IndexDocuments(timFerrissDirectoryPath);
 
-            const string dirPath =
-                @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\";
+            // const string dirPath =
+            //     @"C:\Users\cblazevich\RiderProjects\ExploreElasticSearch\Transcripts\";
+
+            const string dirPath = @"C:\Code\ExploreElasticSearch\Transcripts\";
 
             IndexDocumentsMultiLevelDirectory(dirPath);
 
